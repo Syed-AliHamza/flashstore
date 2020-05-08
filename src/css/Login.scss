@@ -1,0 +1,158 @@
+#main-content {
+  font-family: "Open Sans", sans-serif;
+  .container {
+    .row {
+      h4 {
+        font-size: 25px;
+        font-weight: 200;
+        margin: 0 0 10px;
+        line-height: 32px;
+        .line {
+          border-bottom: 2px solid #ffc301;
+          padding-bottom: 10px;
+          width: 100px !important;
+        }
+      }
+      p {
+        line-height: 28px;
+        font-size: 14px;
+        font-weight: 200;
+      }
+      form {
+        .alert {
+          .errors {
+            font-size: 14px;
+          }
+        }
+        .control-wrapper {
+          label {
+            display: block;
+            clear: both;
+            margin-bottom: 10px;
+            font-weight: 700;
+            color: #333e48;
+            font-size: 14px;
+          }
+          input {
+            margin-bottom: 20px;
+            width: 100%;
+          }
+          input[type="text"],
+          input[type="email"],
+          input[type="password"] {
+            height: 47px;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            font-size: 14px;
+            width: 100%;
+            background: #fff;
+            padding: 13px 30px;
+            line-height: 1.6;
+            border: 1px solid #ddd;
+            border-radius: 25px 25px 25px 25px;
+            box-shadow: 0 0 0 0 #fff inset;
+          }
+          input[type="text"]:focus,
+          input[type="password"]:focus,
+          input[type="number"]:focus,
+          input[type="email"]:focus {
+            border-color: #ffc301;
+            background: #fff;
+            outline: 0;
+            box-shadow: 0 0 0 0 #fff inset;
+          }
+          a {
+            transition: all 0.35s ease 0s;
+            outline: none;
+            margin-bottom: 10px;
+            background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+            color: #333e48;
+            font-size: 14px;
+            letter-spacing: 1px;
+            font-family: "Open Sans", sans-serif;
+            font-weight: 200;
+            text-decoration: none;
+            &:hover {
+              color: #ffc301;
+            }
+          }
+          .btn {
+            background: #ffc301;
+            color: #333e48;
+            border: 1px solid #ffc301;
+            padding: 9px 45px;
+            line-height: 27px;
+            font-weight: 700;
+            white-space: normal;
+            margin-bottom: 10px;
+            font-size: 14px;
+            border-radius: 25px 25px 25px 25px;
+            transition: all 0.35s ease-in-out 0s;
+          }
+          .btn-2 {
+            min-width: 100px;
+            background: #e6e6e6;
+            color: #333e48;
+            border: 1px solid #e6e6e6;
+            &:hover,
+            &:active,
+            &:focus {
+              background-color: #ffc301;
+              border-color: #ffc301;
+              color: #333e48;
+            }
+          }
+        }
+      }
+      .register-or {
+        position: relative;
+        border-left: 1px solid #ddd;
+      }
+      .register-or:before {
+        content: "or";
+        display: block;
+        width: 50px;
+        height: 50px;
+        text-align: center;
+        line-height: 50px;
+        font-style: italic;
+        border: 1px solid #ddd;
+        background: #fff;
+        position: absolute;
+        display: block;
+        left: 0;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 50% 50% 50% 50%;
+      }
+    }
+  }
+}
+
+@media (max-width: 575px) {
+  .form-wrapper.create {
+    margin-top: 40px;
+  }
+  .register-or {
+    margin-top: 10px;
+    position: relative;
+    border-top: 1px solid #ddd;
+  }
+  .register-or:before {
+    content: "or";
+    display: block;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-style: italic;
+    border: 1px solid #ddd;
+    background: #fff;
+    position: absolute;
+    display: block;
+    left: 50% !important;
+    top: 0 !important;
+    transform: translate(-50%, -50%);
+    border-radius: 50% 50% 50% 50%;
+  }
+}

@@ -1,0 +1,113 @@
+.navbar {
+  .container {
+    .row {
+      .dropdown {
+        width: 20%;
+        .btn {
+          background-color: #FFC301;
+          transition: 0.6s;
+          border-radius: 10px;
+          border-bottom-left-radius: 0px;
+          border-bottom-right-radius: 0px;
+          &:active,
+          &:focus {
+            border-bottom-left-radius: 0px;
+            border-bottom-right-radius: 0px;
+          }
+        }
+        .dropdown-menu > .active > a {
+          //   background-color:#FFC301;
+          background-color: transparent;
+          &:hover,
+          &:focus {
+            background-color: #FFC301;
+          }
+        }
+        .dropdown-menu {
+          border-radius: 0;
+          border-bottom-left-radius: 10px;
+          border-bottom-right-radius: 10px;
+          .dropdown-item {
+            font-size: 15px;
+            cursor: pointer;
+            transition: 0.9s;
+            a {
+              list-style: none;
+              text-decoration: none;
+              background-color: transparent;
+              outline: none;
+              // font-weight: bold;
+              letter-spacing: 0.05em;
+              color: #545454;
+              font-size: 16px;
+              line-height: 30px;
+              &:active,
+              &:focus {
+                background-color: transparent;
+              }
+            }
+            &.active,
+            &:active,
+            &:hover {
+              background-color: #FFC301;
+              font-weight: 500;
+            }
+          }
+        }
+      }
+      .free-shipping {
+        font-size: 14px;
+        color: #333e48;
+      }
+      .collape {
+        position: relative;
+        height: 100vh;
+        width: 700px;
+        margin: 0;
+        border: 5px solid black;
+      }
+    }
+  }
+}
+
+// .navbar-inner {
+//   background: #f8f9fa;
+//   box-shadow: 0px 2px 6px 1px rgba(0, 0, 0, 0.13);
+// }
+
+// .navbar-light .navbar-nav {
+//   .nav-link {
+//     letter-spacing: 1px;
+//     font-size: 15px;
+//     color: #000;
+//   }
+
+//   .show > .nav-link,
+//   .active > .nav-link {
+//     color:#FFC301;
+//   }
+
+//   .nav-link {
+//     &.show,
+//     &.active {
+//       color:#FFC301;
+//     }
+//   }
+// }
+
+// ul.multi-column-dropdown li {
+//   list-style-type: none;
+//   line-height: 2.5em;
+
+//   a {
+//     text-decoration: none;
+//     list-style: none;
+//     font-size: 14px;
+//     color: #545454;
+//     letter-spacing: 1px;
+
+//     &:hover {
+//       color:#FFC301;
+//     }
+//   }
+// }

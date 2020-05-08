@@ -1,0 +1,29 @@
+@import "./NavHeader.scss";
+@import "./Nav.scss";
+@import "./NavEnd.scss";
+@import "./NavModal.scss";
+@import "./Carousel.scss";
+@import "./Features-Sales.scss";
+@import "./Products.scss";
+@import "./Footer.scss";
+@import "./Login.scss";
+@import "./Checkout.scss";
+@import "./payment.scss";
+@import "./faq";
+@import "./help";
+@import "./term";
+@import "./payment";
+@import "./Tabs.scss";
+@import "./Search.scss";
+@import "./ContactUs.scss";
+@import "./StoreLocation.scss";
+@import "./WhisList.scss";
+@import "./PostDetail.scss";
+@import "./TrackYourOrder.scss";
+@import "./PostReview.scss";
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}

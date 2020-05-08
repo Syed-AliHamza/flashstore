@@ -1,0 +1,15 @@
+import React from 'react;
+class filename extends React.Component {
+render(){
+	return (
+	    
+	)
+}
+};
+export default filename;
+
+& 
+import in App.jsx
+
+import filename from './filename';
+

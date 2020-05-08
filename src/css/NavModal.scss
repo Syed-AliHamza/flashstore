@@ -1,0 +1,58 @@
+#navbarSupportedContent {
+  height: 100vh;
+  .modal-dialog {
+    width: 300px;
+    // height: 100vh;
+    margin: 0;
+    .modal-content {
+      border-radius: 0;
+      height: 100vh;
+      color: #545454;
+      .model-header {
+        background-color: #FFC301;
+        font-size: 12px;
+        // width: 30%;
+        cursor: pointer;
+        a {
+          text-decoration: none;
+          list-style: none;
+          outline: none;
+          color: #545454;
+          padding: 5px;
+          cursor: pointer;
+          i {
+            font-size: 20px;
+            padding: 0px;
+          }
+        }
+      }
+      .modal-body {
+        font-size: 14px;
+        height: 84vh;
+        .navbar-nav {
+          .nav-item {
+            a {
+              color: #545454;
+              font-size: 16px;
+              line-height: 30px;
+            }
+          }
+        }
+      }
+      .modal-footer {
+        background-color: #FFC301;
+        font-size: 12px;
+        // width: 30%;
+        a {
+          text-decoration: none;
+          list-style: none;
+          outline: none;
+          margin: 0;
+          color: #545454;
+          padding: 5px;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

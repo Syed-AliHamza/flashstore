@@ -1,0 +1,27 @@
+h3.w3-head {
+  color: #FFC301;
+  font-size: 28px;
+  letter-spacing: 1px;
+}
+
+.faq-w3agile .faq li {
+  list-style-type: decimal;
+}
+
+.faq-w3agile .faq > li > a {
+  color: #025061;
+  font-size: 17px;
+  letter-spacing: 0.5px;
+}
+
+li.subitem1 p {
+  line-height: 25px;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  color: #000;
+}
+
+.faq-w3agile .faq li li.subitem1 {
+  display: block;
+  margin-top: 1em;
+}
