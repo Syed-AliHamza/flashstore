@@ -105,9 +105,11 @@ export default class NavModal extends Component {
               </div>
               <div className="modal-footer p-0 m-0 text-center rounded-0 d-flex justify-content-center align-itmes-center">
                 <span className="p-1">
-                  <i className="flaticon-call-1"></i>
-                  <br />
-                  Contact Us
+                  <Link to="/store-location">
+                    <i className="flaticon-call-1"></i>
+                    <br />
+                    Contact Us
+                  </Link>
                 </span>
                 <span className="p-1">
                   <Link to="/store-location">
