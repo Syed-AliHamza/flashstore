@@ -4,14 +4,14 @@ function Footer() {
   const [offer, useOffer] = useState([
     { i: "fa fa-dolly", h3: "Free Shipping", p: "on orders over $10" },
     { i: "fa fa-shipping-fast", h3: "Fast Delivery", p: "World Wide" },
-    { i: "fa fa-thumbs-up", h3: "Big Choice", p: "of Products" }
+    { i: "fa fa-thumbs-up", h3: "Big Choice", p: "of Products" },
   ]);
   return (
     <div>
       <footer>
-        <div className="footer-top-first">
+        {/* <div className="footer-top-first">
           <div className="container py-md-5 py-sm-4 py-3">
-            {/* <h2 className="footer-top-head-w3l font-weight-bold mb-2">
+            <h2 className="footer-top-head-w3l font-weight-bold mb-2">
               Electronics :
             </h2>
             <p className="footer-main mb-4">
@@ -21,7 +21,7 @@ function Footer() {
               Prices on TVs, laptops, cell phones, tablets and iPads, video
               games, desktop computers, cameras and camcorders, audio, video and
               more.
-            </p> */}
+            </p>
             <div className="row border-top border-bottom py-sm-4 py-3">
               {offer.map((v, k) => {
                 return (
@@ -42,7 +42,7 @@ function Footer() {
               })}
             </div>
           </div>
-        </div>
+        </div> */}
         <div className="categories py-5">
           <div className="container py-md-5 py-sm-4 py-3">
             <div className="row footer-info">
@@ -104,22 +104,17 @@ function Footer() {
                   </li>
                   <li className="mb-3">
                     <Link to="/" href="mailto:0307-4190145">
-                    <i className="fa fa-mobile"></i>
-                      {" "}
-                      (+92) 307-4190145
+                      <i className="fa fa-mobile"></i> (+92) 307-4190145
                     </Link>
                   </li>
                   <li className="mb-3">
                     <Link to="/" href="mailto:0307-4190145">
-                    <i className="fa fa-phone"></i>{" "}
-                      {" "}
-                      (+92) 307-4190145
+                      <i className="fa fa-phone"></i> (+92) 307-4190145
                     </Link>
                   </li>
                   <li className="mb-3">
                     <Link to="/" href="mailto:flashstore8563@gmail.com">
-                    <i className="fa fa-envelope-open"></i>
-                      {" "}
+                      <i className="fa fa-envelope-open"></i>{" "}
                       flashstore8563@gmail.com
                     </Link>
                   </li>
@@ -146,7 +141,7 @@ function Footer() {
                       name="email"
                       required
                     />
-                    <input type="submit" value="Go" className="rounded-0"/>
+                    <input type="submit" value="Go" className="rounded-0" />
                   </div>
                 </form>
                 <div className="footer-grids mt-3">

@@ -12,19 +12,7 @@ export default class Nav extends Component {
         <nav className="sticky-top navbar-expand-md navbar-light flash-navbar m-0 p-0 text-center">
           <div className="container m-auto clearfix p-0">
             <div className="row d-flex align-items-center justify-content-between m-0 py-3 p-0">
-              <Link
-                to="/"
-                className="navbar-toggler"
-                type="button"
-                data-toggle="modal"
-                data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
-              >
-                <span className="navbar-toggler-icon"></span>
-              </Link>
-              <div className="col-3 col-md-2 col-lg-2 col-xl-2 d-none d-lg-block d-md-block d-sm-block m-0">
+              <div className="col-12 col-md-2 col-lg-2 col-xl-2 d-none d-sm-block d-lg-block d-md-block m-0">
                 <Link to="/">
                   <img
                     src="/images/logo_4.png"
@@ -32,10 +20,20 @@ export default class Nav extends Component {
                     alt="Flash Store"
                     srcset="Flash Store"
                   />
-                  {/* <h1 className="p-0 m-0">
-                    Fla<span>s</span>h
-                  </h1>
-                  <p className="m-0 p-0">Store.</p> */}
+                </Link>
+              </div>
+              <div className="col-2 d-block d-sm-none d-lg-none d-md-none w-100">
+                <Link
+                  to="/"
+                  className="navbar-toggler rounded-0"
+                  type="button"
+                  data-toggle="modal"
+                  data-target="#navbarSupportedContent"
+                  aria-controls="navbarSupportedContent"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <span className="navbar-toggler-icon"></span>
                 </Link>
               </div>
               <div className="form col-10 col-md-5 col-lg-7 col-xl-7 w-100">

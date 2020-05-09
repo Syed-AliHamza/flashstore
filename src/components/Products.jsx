@@ -380,16 +380,16 @@ export default class Musicandheadphones extends Component {
       return { visible: prev.visible + 18 };
     });
   }
-  componentDidMount() {
-    Axios.get("/postdata").then((resp) => {
-      let Headphone = resp.data.filter(
-        (cate) => cate.categeory == "Headphones"
-      );
-      this.setState({
-        Headphones: Headphone,
-      });
-    });
-  }
+  // componentDidMount() {
+  //   Axios.get("/postdata").then((resp) => {
+  //     let Headphone = resp.data.filter(
+  //       (cate) => cate.categeory == "Headphones"
+  //     );
+  //     this.setState({
+  //       Headphones: Headphone,
+  //     });
+  //   });
+  // }
   render() {
     return (
       <div id="products">
@@ -429,7 +429,7 @@ export default class Musicandheadphones extends Component {
                             </span>
                             <Link
                               to="/wishlist"
-                              className="d-none d-lg-block d-sm-block p-0 text-uppercase rounded-0"
+                              className=" p-0 text-uppercase rounded-0"
                             >
                               <i className="fa fa-heart pr-2"></i>
                               Wishlist

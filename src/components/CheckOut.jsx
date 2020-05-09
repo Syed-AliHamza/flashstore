@@ -117,7 +117,6 @@ export default class CheckOut extends Component {
                   <table className="w-100">
                     <thead>
                       <tr className="row p-2 border-bottom">
-                        <th className="col-3 col-md-1">Delete</th>
                         <th className="col-3 col-md-2">Product Image</th>
                         <th className="col-5 col-md-4 text-left pl-4">
                           Product Name
@@ -125,6 +124,7 @@ export default class CheckOut extends Component {
                         <th className="col-3 col-md-2">Product Price</th>
                         <th className="col-3 col-md-1">Quantity</th>
                         <th className="col-3 col-md-2">Cart Total</th>
+                        <th className="col-3 col-md-1">Delete</th>
                       </tr>
                     </thead>
                     <tbody>
@@ -132,14 +132,6 @@ export default class CheckOut extends Component {
                         return (
                           <React.Fragment key={k}>
                             <tr className="products p-0 py-2 m-0 row alert show fade border-bottom rounded-0 d-flex align-items-center">
-                              <td className="col-2 col-md-1 d-flex align-items-center justify-content-center">
-                                <span
-                                  data-dismiss="alert"
-                                  style={{ cursor: "pointer" }}
-                                >
-                                  &times;
-                                </span>
-                              </td>
                               <td className="col-4 col-md-2 p-0 d-flex align-items-center justify-content-center">
                                 <Link to="/postdetail">
                                   <img
@@ -153,7 +145,7 @@ export default class CheckOut extends Component {
                               <td className="d-flex align-items-center col-6 col-md-4 text-left">
                                 {v.name}
                               </td>
-                              <td className="d-flex align-items-center justify-content-center col-3 col-md-2">
+                              <td className="d-flex align-items-center justify-content-center col-1 col-md-2">
                                 Rs. {v.price}
                               </td>
                               <td className="p-0 d-flex align-items-center justify-content-center col-3 col-md-1">
@@ -175,6 +167,14 @@ export default class CheckOut extends Component {
                               </td>
                               <td className="d-flex align-items-center justify-content-center col-4 col-md-2">
                                 Rs. {this.calculateTotal}/-
+                              </td>
+                              <td className="col-1 col-md-1 d-flex align-items-center justify-content-center">
+                                <span
+                                  data-dismiss="alert"
+                                  style={{ cursor: "pointer" }}
+                                >
+                                  &times;
+                                </span>
                               </td>
                             </tr>
                           </React.Fragment>

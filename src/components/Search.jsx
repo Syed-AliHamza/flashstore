@@ -201,7 +201,7 @@ export default class Search extends Component {
                               </span>
                               <Link
                                 to="/wishlist"
-                                className="d-none d-lg-block d-sm-block p-0 text-uppercase rounded-0"
+                                className="p-0 text-uppercase rounded-0"
                               >
                                 <i className="fa fa-heart pr-2"></i>
                                 Wishlist

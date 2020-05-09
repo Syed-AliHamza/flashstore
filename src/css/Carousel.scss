@@ -151,15 +151,18 @@
   }
 }
 
-// @media (max-width: 959px) {
-//   .carousel-caption {
-//     margin-top: 11em;
-//     h2,
-//     h3 {
-//       font-size: 58px;
-//     }
-//   }
-// }
+@media (max-width: 959px) {
+  .carousel-item.item1 {
+    background: url(/images/slider4.jpg) no-repeat center left !important;
+    background-size: cover;
+  }
+}
+@media (max-width: 420px) {
+  .carousel-item.item1 {
+    background: url(/images/slider4.jpg) no-repeat center right !important;
+    background-size: cover;
+  }
+}
 // @media (max-width: 896px) {
 //   .carousel-caption {
 //     h2,

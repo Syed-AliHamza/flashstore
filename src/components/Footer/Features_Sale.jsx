@@ -3,36 +3,30 @@ import React, { useState } from "react";
 function Features_Sale() {
   const [data, useData] = useState([
     {
-      h6: "Smooth, Rich & Loud Audio",
-      h4: "Branded Headphones",
-      p: "Sale up to 25% off all in store",
-      src: "./images/off1.png"
+      i: "flaticon-shopping-cart",
+      h3: "Free Shipping",
+      p: "on orders over Rs.2,000/-",
     },
-    {
-      h6: "A Bigger Phone",
-      h4: "Smart Phones 5",
-      p: "Free shipping order over $100",
-      src: "./images/off2.png"
-    }
+    { i: "flaticon-fast-delivery", h3: "Fast Delivery", p: "World Wide" },
+    { i: "fa fa-thumbs-up", h3: "Big Choice", p: "of Products" },
   ]);
   return (
     <div>
-      <div className="join-w3l1 py-sm-5 py-4">
+      <div className="features-sale py-sm-5 py-4">
         <div className="container py-xl-4 py-lg-2">
-          <div className="row">
+          <div className="row m-0 p-0">
             {data.map((v, k) => {
               return (
                 <React.Fragment key={k}>
-                  <div className="col-lg-6 mt-lg-0 mt-5">
-                    <div className="join-agile text-left p-4">
-                      <div className="row ">
-                        <div className="col-sm-7 offer-name">
-                          <h6>{v.h6}</h6>
-                          <h4 className="mt-2 mb-3">{v.h4}</h4>
-                          <p>{v.p}</p>
+                  <div class="col-lg-4 my-3">
+                    <div class="text text-left p-4">
+                      <div class="row d-flex justify-content-center align-items-center">
+                        <div class="col-3 offer-name">
+                          <i className={v.i}></i>
                         </div>
-                        <div className="col-sm-5 offerimg-w3l">
-                          <img src={v.src} alt="" className="img-fluid" />
+                        <div class="col-9 pt-3 text-form-footer">
+                          <h3>{v.h3}</h3>
+                          <p>{v.p}</p>
                         </div>
                       </div>
                     </div>

@@ -1,4 +1,4 @@
-.join-w3l1 {
+.features-sale {
   background: url(/images/bg.jpg) no-repeat center fixed;
   background-size: cover;
   -webkit-background-size: cover;
@@ -6,23 +6,36 @@
   -o-background-size: cover;
   -ms-background-size: cover;
   text-align: center;
-  .join-agile {
+  .text {
     background: #efedee;
     box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.04);
-    border-radius: 4px;
+    border-radius: 0px;
     .offer-name {
-      margin-top: 4em;
-      h6 {
-        color: #ffc107;
-        font-size: 18px;
+      i {
+        font-size: 41px;
+        line-height: 1.4;
+        color: #ffc301;
       }
-      h4 {
-        font-size: 27px;
+      [class^="flaticon-"]:before,
+      [class*=" flaticon-"]:before,
+      [class^="flaticon-"]:after,
+      [class*=" flaticon-"]:after {
+        font-family: Flaticon;
+        font-size: 41px;
+        font-style: normal;
+        margin: 0px !important;
+        padding: 0;
       }
+    }
+    h3 {
+      color: #000;
+      font-size: 26px;
+      letter-spacing: 1px;
+      font-weight: 600;
+      line-height: 1.3;
     }
   }
 }
-
 .container {
   .row {
     .feature {
@@ -34,7 +47,7 @@
         letter-spacing: 1px;
         font-size: 20px;
         p {
-          border-bottom: 2px solid #FFC301;
+          border-bottom: 2px solid #ffc301;
           padding-bottom: 10px;
           margin-bottom: -1px;
           width: 100px;
@@ -71,7 +84,7 @@
             }
           }
           p {
-            color: #FFC301;
+            color: #ffc301;
             font-size: 13px;
           }
         }
@@ -80,60 +93,5 @@
         }
       }
     }
-  }
-}
-
-.rating {
-  float: left;
-  font-size: 13px;
-}
-
-.rating:not(:checked) > input {
-  position: absolute;
-  top: -9999px;
-  clip: rect(0, 0, 0, 0);
-}
-
-.rating:not(:checked) > label {
-  float: right;
-  width: 1em;
-  /* padding:0 .1em; */
-  overflow: hidden;
-  white-space: nowrap;
-  cursor: pointer;
-  font-size: 150%;
-  /* line-height:1.2; */
-  color: #ddd;
-}
-
-.rating:not(:checked) > label:before {
-  content: "★ ";
-}
-
-.rating > input:checked ~ label {
-  color: #fed700;
-}
-
-.rating:not(:checked) > label:hover,
-.rating:not(:checked) > label:hover ~ label {
-  color: #fed700;
-}
-
-.rating > input:checked + label:hover,
-.rating > input:checked + label:hover ~ label,
-.rating > input:checked ~ label:hover,
-.rating > input:checked ~ label:hover ~ label,
-.rating > label:hover ~ input:checked ~ label {
-  color: #fed700;
-}
-
-.rating > label:active {
-  position: relative;
-  top: 2px;
-  left: 2px;
-}
-.list {
-  li {
-    color: gray;
   }
 }

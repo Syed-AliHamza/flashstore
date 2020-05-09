@@ -5,12 +5,11 @@ export default class NavHeader extends Component {
   render() {
     return (
       <React.Fragment>
-        <div id="topbar" className="d-none d-lg-block">
+        <div id="topbar" className="">
           <div className="container m-auto clearfix">
-            <div className="contact-info float-left">
+            <div className="contact-info float-left d-none d-lg-block">
               <span className="border-right pr-2">
-                {" "}
-                <i className="flaticon-call"></i>{" "}
+                <i className="flaticon-call-1"></i>
                 <a href="tel:0307-4190145"> (+92) 307-4190145</a>
               </span>
               <span className="pl-1">
@@ -20,15 +19,15 @@ export default class NavHeader extends Component {
                 </a>
               </span>
             </div>
-            <div className="social-links float-right">
-              <span className=" border-right">
+            <div className="social-links float-right d-flex align-items-center">
+              <span className="d-none d-md-block d-lg-block border-right">
                 <Link to="/store-location">
                   <i className="flaticon-placeholder"></i> Store Location
                 </Link>
               </span>
-              <span className="border-right">
+              <span className="d-none d-md-block d-lg-block border-right">
                 <Link to="/track-your-order">
-                  <i className="fa fa-truck"></i> Track Your Order
+                  <i className="flaticon-tracking"></i> Track Your Order
                 </Link>
               </span>
               <span className="">
@@ -38,7 +37,9 @@ export default class NavHeader extends Component {
               </span>
               <span className="text-muted">or</span>
               <span className=" border-right">
-                <Link to="/account/login">Sign in</Link>
+                <Link to="/account/login">
+                  <i className="flaticon-user-1"></i>Sign in
+                </Link>
               </span>
             </div>
           </div>
