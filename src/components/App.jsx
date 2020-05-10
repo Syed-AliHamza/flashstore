@@ -6,7 +6,7 @@ import Home from "./Home_Route/Home";
 import Features_Sale from "./Footer/Features_Sale";
 import Features from "./Footer/Features";
 import Footer from "./Footer/Footer";
-import postdetails from "./postdetails/postdetails";
+import Postdetails from "./postdetails/postdetails";
 import Search from "./Search";
 import help from "./help";
 import privacy from "./privacy";
@@ -25,7 +25,8 @@ class App extends Component {
       <React.Fragment>
         <Navbar />
         <Route exact path="/" component={Home} />
-        <Route path="/postdetail" component={postdetails} />
+        {/* <Route path="/postdetail" component={postdetails} /> */}
+        <Route path="/postdetail/:id" render={() => <Postdetails />} />
         <Route path="/search" component={Search} />
         <Route path="/Term" component={Term} />
         <Route path="/help" component={help} />

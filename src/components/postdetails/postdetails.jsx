@@ -1,18 +1,18 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-// import Axios from "axios";
+import Axios from "axios";
 import { withRouter } from "react-router-dom";
 import PostReview from "./PostReview";
 class postdetails extends Component {
   state = { postdetails: [], count: 0 };
-  // componentDidMount() {
-  //   Axios.get("/postdata").then(resp => {
-  //     let filter = resp.data.filter(d => d._id == this.props.match.params.id);
-  //     this.setState({
-  //       postdetails: filter
-  //     });
-  //   });
-  // }
+  componentDidMount() {
+    Axios.get("/postdata").then((resp) => {
+      let filter = resp.data.filter((d) => d._id == this.props.match.params.id);
+      this.setState({
+        postdetails: filter,
+      });
+    });
+  }
   incrementCount = () => {
     this.setState({
       count: this.state.count + 1,
@@ -158,14 +158,6 @@ class postdetails extends Component {
                 Built-in Microphone: No
                 <br />
                 Bluetooth: YES
-                {/* <ul className="p-3 m-0">
-                  <li>4.5 inch HD Screen</li>
-                  <li>ndroid 4.4 KitKat OS</li>
-                  <li>1.4 GHz Quad Core™ Processor</li>
-                  <li>ndroid 4.4 KitKat OS</li>
-                  <li>1.4 GHz Quad Core™ Processor</li>
-                  <li>20 MP front Camera</li>
-                </ul> */}
               </div>
               <div className="quantity">
                 <div className="row m-auto p-0 d-flex justify-content-between flex-column">
