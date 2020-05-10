@@ -11,7 +11,6 @@ export default class NavModal extends Component {
         <div
           className="modal fade m-0 p-0"
           id="navbarSupportedContent"
-          tabindex="-1"
           role="dialog"
           aria-labelledby="navbarSupportedContent"
           aria-hidden="true"

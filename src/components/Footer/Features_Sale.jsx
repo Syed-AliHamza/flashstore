@@ -18,13 +18,13 @@ function Features_Sale() {
             {data.map((v, k) => {
               return (
                 <React.Fragment key={k}>
-                  <div class="col-lg-4 my-3">
-                    <div class="text text-left p-4">
-                      <div class="row d-flex justify-content-center align-items-center">
-                        <div class="col-3 offer-name">
+                  <div className="col-lg-4 my-3">
+                    <div className="text text-left p-4">
+                      <div className="row d-flex justify-content-center align-items-center">
+                        <div className="col-3 offer-name">
                           <i className={v.i}></i>
                         </div>
-                        <div class="col-9 pt-3 text-form-footer">
+                        <div className="col-9 pt-3 text-form-footer">
                           <h3>{v.h3}</h3>
                           <p>{v.p}</p>
                         </div>

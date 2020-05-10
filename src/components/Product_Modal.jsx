@@ -16,27 +16,33 @@ export default class Product_Modal extends Component {
   render() {
     return (
       <div>
-        <div className="modal fade rounded-0" id="myModal">
-          <div className="modal-content modal-dialog modal-lg rounded-0">
-            <div className="modal-body rounded-0">
-              <button
-                type="button"
-                className="close d-flex justify-content-center p-2"
-                data-dismiss="modal"
-              >
-                &times;
-              </button>
-
+        <div
+          className="modal fade p-3"
+          id="myModal"
+          role="dialog"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div className="modal-dialog modal-xl" role="document">
+            <div className="modal-content rounded-0">
               <div className="container postdetails">
-                <div className="row py-5">
-                  <div className="col-md-5 p-1">
+                {/* <button
+                  type="button"
+                  className="close"
+                  data-dismiss="modal"
+                  aria-label="Close"
+                >
+                  <span aria-hidden="true">&times;</span>
+                </button> */}
+                <div className="row p-4">
+                  <div className="col-lg-6 col-md-12 col-12 p-1">
                     <img
                       className="maginify w-100"
                       src="images/b3.jpg"
                       alt="watch"
                     />
                   </div>
-                  <div className="col-md-7 px-3 right-side">
+                  <div className="col-lg-6 col-md-12 col-12 px-3 right-side">
                     <span className="heading">Audio</span>
                     <h3 className="py-2 m-0">
                       Audionic Reborn RB-110 Home Theatre

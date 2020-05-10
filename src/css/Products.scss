@@ -174,42 +174,50 @@
   }
 }
 .modal {
-  // border-radius: "60px";
-  button.close {
-    color: white;
-    transition: all 0.6s;
-    opacity: 1;
-    background-color: #ffc301;
-    border-radius: 100px;
-    height: 40px;
-    width: 40px;
-    top: -4%;
-    right: -2%;
-    position: absolute;
-    &:hover {
-      background-color: black;
-      opacity: 1;
-      // color: #ffc301;
-    }
-  }
+  // position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1050;
+  // display: none;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  outline: 0;
+  // button.close {
+  //   color: black;
+  //   transition: all 0.6s;
+  //   opacity: 1;
+  //   background-color: transparent;
+  //   border-radius: 100px;
+  //   height: 40px;
+  //   width: 40px;
+  //   top: -2.5%;
+  //   right: -1.5%;
+  //   position: absolute;
+  //   &:hover {
+  //     background-color: black;
+  //     opacity: 1;
+  //     // color: #ffc301;
+  //   }
+  // }
   .container {
     .row {
       img.maginify {
-        height: 350px;
+        height: 300px;
       }
     }
     p {
-      color: "#9F9F9F;";
+      color: #9f9f9f;
     }
-    h1 {
-      font-size: "35px;";
+    h3 {
+      font-size: 23px;
     }
     h2 {
       font-weight: normal;
       color: #ffc301;
     }
     h6 {
-      color: "#868789;";
+      color: #868789;
     }
     select.form-control {
       border-radius: 0% !important;

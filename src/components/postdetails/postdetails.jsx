@@ -133,9 +133,7 @@ class postdetails extends Component {
             </div>
             <div className="col-md-6 col-lg-7 right-side">
               <span className="heading">Smartphone</span>
-              <h3 className="py-2 m-0">
-                Notebook White Spire Notebook White Spire
-              </h3>
+              <h3 className="py-2 m-0">Audionic Reborn RB-110 Home Theatre</h3>
               <p className="border-bottom price pb-3 h4">Rs. 2,299 /-</p>
               <div className="list">
                 Brand Name: Audionic Reborn RB-110 Home Theatre

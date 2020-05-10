@@ -10,19 +10,18 @@ export default class Nav extends Component {
     return (
       <React.Fragment>
         <nav className="sticky-top navbar-expand-md navbar-light flash-navbar m-0 p-0 text-center">
-          <div className="container m-auto clearfix p-0">
-            <div className="row d-flex align-items-center justify-content-between m-0 py-3 p-0">
-              <div className="col-12 col-md-2 col-lg-2 col-xl-2 d-none d-sm-block d-lg-block d-md-block m-0">
+          <div className="container m-auto clearfix">
+            <div className="row d-flex align-items-center justify-content-between py-3 p-0 m-0">
+              <div className="col-12 col-md-3 col-lg-2 col-xl-2 p-0 d-none d-lg-block d-md-block m-0">
                 <Link to="/">
                   <img
                     src="/images/logo_4.png"
                     className="navbar-brand p-0 m-0"
                     alt="Flash Store"
-                    srcset="Flash Store"
                   />
                 </Link>
               </div>
-              <div className="col-2 d-block d-sm-none d-lg-none d-md-none w-100">
+              <div className="col-2 col-sm-2 d-block d-lg-none d-md-none w-100">
                 <Link
                   to="/"
                   className="navbar-toggler rounded-0"
