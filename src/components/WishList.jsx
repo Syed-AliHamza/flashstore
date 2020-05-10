@@ -91,37 +91,46 @@ export default class WishList extends Component {
         <div className="wishlist py-sm-5 py-4">
           <div className="container py-xl-4 py-lg-2">
             <div className="wishlist-detail">
-              {/* <h4 className="mb-sm-4 mb-3">
+              <h4 className="mb-sm-4 mb-3">
                 Your wishlist contains:
                 <span> 4</span> Products
-              </h4> */}
-              <div className="table-responsive w-100">
-                <table className="w-100">
+              </h4>
+              <div className="table-responsive-lg w-100">
+                <table className="table table-hover table-responsive-sm">
                   <thead>
-                    <tr className="row p-2 border-bottom">
-                      <th className="col-3 col-md-1">Delete</th>
-                      <th className="col-3 col-md-2">Product Image</th>
-                      <th className="col-5 col-md-4 text-left pl-4">
+                    <tr className="">
+                      <th className="lg" scope="col">
+                        #
+                      </th>
+                      <th className="lg" scope="col">
+                        Product Image
+                      </th>
+                      <th className="lg" scope="col" colspan="2">
                         Product Name
                       </th>
-                      <th className="col-4 col-md-2">Product Price</th>
-                      <th className="col-1">Available</th>
+                      <th className="lg" scope="col">
+                        Price
+                      </th>
+                      <th className="lg" scope="col">
+                        Available
+                      </th>
+                      <th className="lg" scope="col">
+                        View
+                      </th>
+                      <th className="lg" scope="col">
+                        Delete
+                      </th>
                     </tr>
                   </thead>
                   <tbody>
                     {this.state.data.map((v, k) => {
                       return (
                         <React.Fragment key={k}>
-                          <tr className="products row alert show fade border-bottom rounded-0 d-flex align-items-center">
-                            <td className="col-2 col-md-1 d-flex align-items-center justify-content-center">
-                              <span
-                                data-dismiss="alert"
-                                style={{ cursor: "pointer" }}
-                              >
-                                &times;
-                              </span>
+                          <tr className="products alert show fade border-bottom rounded-0">
+                            <td className="pl-0 py-3" scope="row">
+                              {k + 1}
                             </td>
-                            <td className="col-4 col-md-2 d-flex align-items-center justify-content-center">
+                            <td className="pl-0 py-2">
                               <Link to="/postdetail">
                                 <img
                                   src={v.img}
@@ -130,23 +139,27 @@ export default class WishList extends Component {
                                 />
                               </Link>
                             </td>
-                            <td className="d-flex align-items-center col-6 col-md-4 text-left">
+                            <td className="pl-0 py-3 text-left" colspan="2">
                               {v.name}
                             </td>
-                            <td className="d-flex align-items-center justify-content-center col-3 col-md-2">
-                              Rs {v.price}
-                            </td>
-                            <td className="d-flex align-items-center justify-content-center col-3 col-md-1">
-                              In Stock
-                            </td>
-                            <td className="d-flex align-items-center justify-content-center col-3 col-md-2">
+                            <td className="pl-0 py-3">Rs {v.price}</td>
+                            <td className="pl-0 py-3">In Stock</td>
+                            <td className="pl-0 py-2">
                               <Link
                                 to="/postdetail"
                                 type="button"
-                                className="btn p-2 px-3 rounded-0"
+                                className="btn rounded-0"
                               >
                                 View
                               </Link>
+                            </td>
+                            <td className="pl-0 py-3 text-center">
+                              <span
+                                data-dismiss="alert"
+                                style={{ cursor: "pointer" }}
+                              >
+                                &times;
+                              </span>
                             </td>
                           </tr>
                         </React.Fragment>

@@ -10,7 +10,7 @@
           font-size: 16px;
           color: #878787;
           font-size: 13px;
-          text-align: center;
+          // text-align: center;
           padding: 12px 0;
           letter-spacing: 1px;
           font-weight: 400;
@@ -20,14 +20,18 @@
     tbody {
       tr {
         td {
-          text-align: center;
+          // text-align: center;
           //   padding: 7px;
+          // background-color: red;
+          border: none;
           font-size: 14px;
           color: #212121;
+          cursor: pointer;
           a {
             img {
-              width: 80px;
-              margin: 0 auto;
+              width: 60px;
+              height: 40px;
+              margin: 0;
             }
           }
           p {
@@ -58,7 +62,7 @@
         height: 60px;
         .btn {
           background-color: #ffc301;
-          &:hover{
+          &:hover {
             background-color: black;
             color: white;
           }
