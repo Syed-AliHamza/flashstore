@@ -85,20 +85,10 @@
         .views {
           span.btn {
             font-weight: 400;
-            font-size: 13px;
+            font-size: 12px;
             color: grey;
             &:hover {
               color: #ffc301;
-            }
-            [class^="flaticon-"]:before,
-            [class*=" flaticon-"]:before,
-            [class^="flaticon-"]:after,
-            [class*=" flaticon-"]:after {
-              font-family: Flaticon;
-              font-size: 13px;
-              font-style: normal;
-              margin: 0px !important;
-              padding: 0;
             }
           }
           a {
@@ -108,16 +98,6 @@
             transition: all 0.6s;
             &:hover {
               color: #ffc301;
-            }
-            [class^="flaticon-"]:before,
-            [class*=" flaticon-"]:before,
-            [class^="flaticon-"]:after,
-            [class*=" flaticon-"]:after {
-              font-family: Flaticon;
-              font-size: 13px;
-              font-style: normal;
-              margin: 0px !important;
-              padding: 0;
             }
           }
         }
