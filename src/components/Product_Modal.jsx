@@ -25,31 +25,24 @@ export default class Product_Modal extends Component {
         >
           <div className="modal-dialog modal-xl" role="document">
             <div className="modal-content rounded-0">
-              <div className="container postdetails">
-                {/* <button
-                  type="button"
-                  className="close"
-                  data-dismiss="modal"
-                  aria-label="Close"
-                >
-                  <span aria-hidden="true">&times;</span>
-                </button> */}
+              <div className="container-fluid postdetails">
                 <div className="row p-4">
                   <div className="col-lg-6 col-md-12 col-12 p-1">
                     <img
                       className="maginify w-100"
-                      src="images/b3.jpg"
-                      alt="watch"
+                      src="images/Appale-earpod.jpg"
                     />
                   </div>
                   <div className="col-lg-6 col-md-12 col-12 px-3 right-side">
                     <span className="heading">Audio</span>
                     <h3 className="py-2 m-0">
-                      Audionic Reborn RB-110 Home Theatre
+                      Earpods Earphone Stereo Headset mic for Apple/And All
+                      Smart Phones.
                     </h3>
-                    <p className="border-bottom price pb-3 h4">Rs. 2,299 /-</p>
+                    <p className="border-bottom price pb-3 h4">Rs. 400 /-</p>
                     <div className="list">
-                      Brand Name: Audionic Reborn RB-110 Home Theatre
+                      Brand Name: Earpods Earphone Stereo Headset mic for
+                      Apple/And All Smart Phones.
                       <br />
                       Speaker Unit: 8" + 3" x 4<br />
                       Color: Black
