@@ -543,7 +543,7 @@ export default class Musicandheadphones extends Component {
   render() {
     return (
       <div id="products">
-        <div className="SmartPhone container-fluid my-5">
+        <div className="container-fluid my-5">
           <h4 className="border-bottom pt-1">
             Just For You<p className="line"></p>
           </h4>
@@ -570,7 +570,7 @@ export default class Musicandheadphones extends Component {
                           <div className="views p-2 d-flex justify-content-between">
                             <span
                               type="button"
-                              className="btn d-none d-lg-block d-sm-block p-0 text-uppercase rounded-0"
+                              className="btn text-left p-0 text-uppercase rounded-0"
                               data-toggle="modal"
                               data-target="#myModal"
                             >
@@ -582,7 +582,7 @@ export default class Musicandheadphones extends Component {
                               className=" p-0 text-uppercase rounded-0"
                             >
                               <i className="fa fa-heart pr-2"></i>
-                              Wishlist
+                              Wish List
                             </Link>
                           </div>
                           <div className="m-2">
