@@ -7,7 +7,7 @@ export default class Term extends Component {
         <div className="page-head_agile_info_w3l"></div>
         <div className="services-breadcrumb">
           <div className="agile_inner_breadcrumb">
-            <div className="container">
+            <div className="container-fluid">
               <ul className="w3_short">
                 <li>
                   <Link to="/">Home</Link>
@@ -20,7 +20,7 @@ export default class Term extends Component {
         </div>
 
         <div className="terms py-sm-5 py-4">
-          <div className="container py-xl-4 py-lg-2">
+          <div className="container-fluid py-xl-4 py-lg-2">
             <h3 className="tittle-w3l text-center mb-lg-5 mb-sm-4 mb-3">
               Terms and Conditions
             </h3>

@@ -8,7 +8,7 @@ export default class TrackYourOrder extends Component {
         <div className="page-head_agile_info_w3l"></div>
         <div className="services-breadcrumb">
           <div className="agile_inner_breadcrumb">
-            <div className="container">
+            <div className="container-fluid">
               <ul className="w3_short">
                 <li>
                   <Link to="/">Home</Link>
@@ -19,7 +19,7 @@ export default class TrackYourOrder extends Component {
             </div>
           </div>
         </div>
-        <div className="container m-auto py-5">
+        <div className="container-fluid m-auto py-5">
           <p className="pb-4 text-center h5">
             Track My Order
           </p>

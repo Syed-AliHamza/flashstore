@@ -12,15 +12,15 @@ function Features_Sale() {
   ]);
   return (
     <div>
-      <div className="features-sale py-sm-5 py-4">
-        <div className="container py-xl-4 py-lg-2">
+      <div className="features-sale py-4">
+        <div className="container-fluid py-xl-4 py-lg-2">
           <div className="row m-0 p-0">
             {data.map((v, k) => {
               return (
                 <React.Fragment key={k}>
                   <div className="col-lg-4 my-3">
                     <div className="text text-left p-4">
-                      <div className="row d-flex justify-content-center align-items-center">
+                      <div className="row p-0 d-flex justify-content-between align-items-center">
                         <div className="col-3 offer-name">
                           <i className={v.i}></i>
                         </div>

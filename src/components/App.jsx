@@ -19,14 +19,15 @@ import StoreLocation from "./StoreLocation";
 import Account from "./Login-Register";
 import WishList from "./WishList";
 import TrackYourOrder from "./TrackYourOrder";
+import About from "./About_Route/Index";
 class App extends Component {
   render() {
     return (
       <React.Fragment>
         <Navbar />
         <Route exact path="/" component={Home} />
-        {/* <Route path="/postdetail" component={postdetails} /> */}
-        <Route path="/postdetail/:id" render={() => <Postdetails />} />
+        <Route path="/postdetail" component={Postdetails} />
+        {/* <Route path="/postdetail/:id" render={() => <Postdetails />} /> */}
         <Route path="/search" component={Search} />
         <Route path="/Term" component={Term} />
         <Route path="/help" component={help} />
@@ -39,6 +40,7 @@ class App extends Component {
         <Route path="/store-location" component={StoreLocation} />
         <Route path="/wishlist" component={WishList} />
         <Route path="/track-your-order" component={TrackYourOrder} />
+        {/* <Route path="/aboutus" component={About} /> */}
         {/* <Features /> */}
         <Features_Sale />
         <Footer />

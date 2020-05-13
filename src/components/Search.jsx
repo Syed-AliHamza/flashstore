@@ -6,142 +6,106 @@ export default class Search extends Component {
   state = {
     Headphones: [
       {
-        src: "images/b2.jpg",
-        Title: "Mobile & Tablets",
+        src: "images/Appale-earpod.jpg",
+        Title: "Handfree",
         Heading: "Samsung Galaxy J7 Prime (Gold, 16 GB) (3 GB RAM)",
-        price: "1,900",
+        price: "400",
       },
       {
-        src: "images/b1.jpg",
-        Title: "Mobile & Tablets",
+        src: "images/gionee.jpg",
+        Title: "Handfree",
         Heading: "Samsung Galaxy J7 Prime (Gold, 16 GB) (3 GB RAM)",
-        price: "1,900",
+        price: "350",
       },
       {
-        src: "images/a3.jpg",
-        Title: "Mobile & Tablets",
+        src: "images/i7s_tws.jpg",
+        Title: "Handfree",
         Heading: "Samsung Galaxy J7 Prime (Gold, 16 GB) (3 GB RAM)",
-        price: "1,900",
+        price: "600",
       },
       {
-        src: "images/a.jpg",
-        Title: "Mobile & Tablets",
+        src: "images/i10_tws.jpg",
+        Title: "Handfree",
         Heading: "Samsung Galaxy J7 Prime (Gold, 16 GB) (3 GB RAM)",
-        price: "1,900",
+        price: "950",
       },
       {
-        src: "images/b3.jpg",
-        Title: "Mobile & Tablets",
+        src: "images/i10-tws-earpods.jpg",
+        Title: "Handfree",
         Heading: "Samsung Galaxy J7 Prime (Gold, 16 GB) (3 GB RAM)",
-        price: "1,900",
+        price: "950",
       },
       {
-        src: "images/b2.jpg",
-        Title: "Mobile & Tablets",
+        src: "images/i10-tws.jpg",
+        Title: "Handfree",
         Heading: "Samsung Galaxy J7 Prime (Gold, 16 GB) (3 GB RAM)",
-        price: "1,900",
+        price: "950",
       },
       {
-        src: "images/b1.jpg",
-        Title: "Mobile & Tablets",
+        src: "images/mm1.jpg",
+        Title: "Handfree",
         Heading: "Samsung Galaxy J7 Prime (Gold, 16 GB) (3 GB RAM)",
-        price: "1,900",
+        price: "1250",
       },
       {
-        src: "images/a3.jpg",
-        Title: "Mobile & Tablets",
+        src: "images/mm4.jpg",
+        Title: "Handfree",
         Heading: "Samsung Galaxy J7 Prime (Gold, 16 GB) (3 GB RAM)",
-        price: "1,900",
+        price: "5,000",
       },
       {
-        src: "images/a.jpg",
-        Title: "Mobile & Tablets",
+        src: "images/mm5.jpg",
+        Title: "Handfree",
         Heading: "Samsung Galaxy J7 Prime (Gold, 16 GB) (3 GB RAM)",
-        price: "1,900",
+        price: "2,000",
       },
       {
-        src: "images/b3.jpg",
-        Title: "Mobile & Tablets",
+        src: "images/off1.png",
+        Title: "Handfree",
         Heading: "Samsung Galaxy J7 Prime (Gold, 16 GB) (3 GB RAM)",
-        price: "1,900",
+        price: "750",
       },
       {
-        src: "images/b2.jpg",
-        Title: "Mobile & Tablets",
+        src: "images/Pubg_trogger_4in1.jpg",
+        Title: "Handfree",
         Heading: "Samsung Galaxy J7 Prime (Gold, 16 GB) (3 GB RAM)",
-        price: "1,900",
+        price: "380",
       },
       {
-        src: "images/b1.jpg",
-        Title: "Mobile & Tablets",
+        src: "images/r11-phone-gamepad-trigger-fire-button-aim.jpg",
+        Title: "Handfree",
         Heading: "Samsung Galaxy J7 Prime (Gold, 16 GB) (3 GB RAM)",
-        price: "1,900",
+        price: "450",
       },
       {
-        src: "images/a3.jpg",
-        Title: "Mobile & Tablets",
+        src: "images/S7Edge.jpeg",
+        Title: "Handfree",
         Heading: "Samsung Galaxy J7 Prime (Gold, 16 GB) (3 GB RAM)",
-        price: "1,900",
+        price: "450",
       },
       {
-        src: "images/a.jpg",
-        Title: "Mobile & Tablets",
+        src: "images/Samsung_bluetooth.jpg",
+        Title: "Handfree",
         Heading: "Samsung Galaxy J7 Prime (Gold, 16 GB) (3 GB RAM)",
-        price: "1,900",
+        price: "330",
       },
       {
-        src: "images/b3.jpg",
-        Title: "Mobile & Tablets",
+        src: "images/Samsung-J5.jpeg",
+        Title: "Handfree",
         Heading: "Samsung Galaxy J7 Prime (Gold, 16 GB) (3 GB RAM)",
-        price: "1,900",
+        price: "350",
       },
       {
-        src: "images/b2.jpg",
-        Title: "Mobile & Tablets",
+        src: "images/samsung.jpg",
+        Title: "Handfree",
         Heading: "Samsung Galaxy J7 Prime (Gold, 16 GB) (3 GB RAM)",
-        price: "1,900",
+        price: "300",
       },
       {
-        src: "images/b1.jpg",
-        Title: "Mobile & Tablets",
+        src: "images/si1.jpg",
+        Title: "Handfree",
         Heading: "Samsung Galaxy J7 Prime (Gold, 16 GB) (3 GB RAM)",
-        price: "1,900",
-      },
-      {
-        src: "images/a3.jpg",
-        Title: "Mobile & Tablets",
-        Heading: "Samsung Galaxy J7 Prime (Gold, 16 GB) (3 GB RAM)",
-        price: "150",
-      },
-      {
-        src: "images/a.jpg",
-        Title: "Mobile & Tablets",
-        Heading: "Samsung Galaxy J7 Prime (Gold, 16 GB) (3 GB RAM)",
-        price: "150",
-      },
-      {
-        src: "images/b3.jpg",
-        Title: "Mobile & Tablets",
-        Heading: "Samsung Galaxy J7 Prime (Gold, 16 GB) (3 GB RAM)",
-        price: "150",
-      },
-      {
-        src: "images/b2.jpg",
-        Title: "Mobile & Tablets",
-        Heading: "Samsung Galaxy J7 Prime (Gold, 16 GB) (3 GB RAM)",
-        price: "150",
-      },
-      {
-        src: "images/b1.jpg",
-        Title: "Mobile & Tablets",
-        Heading: "Samsung Galaxy J7 Prime (Gold, 16 GB) (3 GB RAM)",
-        price: "150",
-      },
-      {
-        src: "images/a3.jpg",
-        Title: "Mobile & Tablets",
-        Heading: "Samsung Galaxy J7 Prime (Gold, 16 GB) (3 GB RAM)",
-        price: "150",
+        price: "30,000",
       },
     ],
   };
@@ -151,7 +115,7 @@ export default class Search extends Component {
         <div className="page-head_agile_info_w3l"></div>
         <div className="services-breadcrumb">
           <div className="agile_inner_breadcrumb">
-            <div className="container">
+            <div className="container-fluid">
               <ul className="w3_short">
                 <li>
                   <Link to="/">Home</Link>
@@ -162,7 +126,7 @@ export default class Search extends Component {
             </div>
           </div>
         </div>
-        <div className="container p-0 row m-auto">
+        <div className="container-fluid p-0 row m-auto">
           <div className="col py-5">
             <p className="pb-4 text-center h5">
               Search Result: 24 items found for "headphones"
@@ -173,7 +137,7 @@ export default class Search extends Component {
                   (v, k) => {
                     return (
                       <React.Fragment key={k}>
-                        <div className="card col-6 col-md-4 col-lg-3 p-0">
+                        <div className="card col-6 col-md-4 col-lg-3 col-xl-2 p-0">
                           <div className="border bg-white cardss m-1 mb-3">
                             <Link to={`/postdetail/${v._id}`}>
                               <img

@@ -78,13 +78,13 @@
 
 .carousel-inner {
   position: relative;
-  .sidebar.container {
+  .sidebar.container-fluid {
     position: absolute;
     // background-color: white;
-    top: 0;
+    // top: 0;
     height: 100%;
-    left: 6%;
-    right: 6%;
+    // left: 6%;
+    // right: 6%;
     z-index: 1000;
     .row {
       position: absolute;

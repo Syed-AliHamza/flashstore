@@ -1,0 +1,134 @@
+.about {
+  .main-container {
+    height: 100vh;
+    width: 100%;
+    background-image: url(/images/Header.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    h1{
+      font-weight: bold;
+      color: black;
+      font-family: sans-serif,Arial, Helvetica, sans-serif;
+    }
+    p{
+      padding-top: 20px;
+      color: grey;
+      text-align: center;
+      width: 50%;
+      margin: auto;
+      letter-spacing: 1px;
+    }
+  }
+  .whatwedo {
+    padding: 50px 0;
+    .col-md-4 {
+      // padding-top: 40px;
+      .img {
+        img {
+          height: 100%;
+          width: 100%;
+        }
+      }
+      h4{
+        padding: 30px 0;
+      }
+      p {
+        border: none;
+        color: grey;
+        font-size: 14px;
+      }
+    }
+  }
+  .team {
+    background-color: #f5f5f5;
+    .container {
+      .row {
+        .col-md-2 {
+          padding:30px 0;
+          img {
+            height: 160px;
+            width: 160px;
+          }
+          h5 {
+            color: black;
+            padding-top: 25px;
+          }
+          p {
+            font-size: 13px;
+            letter-spacing: 1px;
+            font-weight: normal;
+          }
+        }
+      }
+    }
+  }
+  .ourvision {
+    .container {
+      .col-md-7 {
+        .row {
+          .col-md-6 {
+            h4 {
+              border: none;
+              padding:20px 0;
+              font-size: 20px;
+            }
+            p {
+              color: gray;
+              font-size: 13px;
+              line-height: 1.4rem;
+            }
+          }
+          .col-md-4 {
+            h4 {
+              border-bottom: none;
+              font-size: 20px;
+            }
+            p {
+              color: gray;
+              font-size: 12.3px;
+            }
+          }
+        }
+      }
+      .col-md-4 {
+        h4{
+          padding: 10px 0;
+          letter-spacing: normal;
+        }
+        .card{
+          margin: 10px 0;
+          
+        }
+        .card-header {
+          background: none;
+          // height: 38px;
+          h5{
+            padding: 0px;
+            margin-bottom: 20px;
+            // border: 2px solid red;
+            margin-top: -5px;
+            button {
+              color: black;
+              font-weight: bold;
+              margin-left: -20px;
+              padding: 20px 0px 0px 0px;
+              outline: none;
+              text-decoration: none;
+              span {
+                background-color: rgb(254, 215, 0);
+                margin-right: 25px;
+                // padding-left: 5px;
+                padding: 8px 12px;
+                border-radius: 10%;
+                color: #ffff;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

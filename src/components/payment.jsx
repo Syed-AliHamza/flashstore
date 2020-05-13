@@ -8,7 +8,7 @@ export default class payment extends Component {
         <div className="page-head_agile_info_w3l"></div>
         <div className="services-breadcrumb">
           <div className="agile_inner_breadcrumb">
-            <div className="container">
+            <div className="container-fluid">
               <ul className="w3_short">
                 <li>
                   <Link to="/">Home</Link>
@@ -20,7 +20,7 @@ export default class payment extends Component {
           </div>
         </div>
         <section id="tabs" className="project-tab m-0 py-5">
-          <div className="container m-auto">
+          <div className="container-fluid m-auto">
             <h3 className="text-center mb-lg-5 mb-sm-4 mb-3">Payment</h3>
             <div className="row border m-auto">
               <div className="col-md-12 py-5">
@@ -49,7 +49,7 @@ export default class payment extends Component {
                     aria-controls="nav-profile"
                     aria-selected="false"
                   >
-                    <i className="fa fa-paypal"></i> Paypal
+                    <i className="fa fa-money"></i> Cash On Delivery
                   </a>
                   <a
                     className="nav-item nav-link"
@@ -151,7 +151,10 @@ export default class payment extends Component {
                           </div>
                         </div>
                       </div>
-                      <button className="subscribe btn btn-block rounded-0" type="button">
+                      <button
+                        className="subscribe btn btn-block rounded-0 mt-3"
+                        type="button"
+                      >
                         {" "}
                         Confirm{" "}
                       </button>
@@ -163,121 +166,24 @@ export default class payment extends Component {
                     role="tabpanel"
                     aria-labelledby="nav-profile-tab"
                   >
-                    <div className="row">
-                      <div className="col-md-6 pay-forms">
-                        <img
-                          className="pp-img w-100"
-                          src="images/paypal.png"
-                          alt="Image Alternative text"
-                          title="Image Title"
-                        />
-                        <p>
-                          Important: You will be redirected to PayPal's website
-                          to securely complete your payment.
-                        </p>
-                        <p>
-                          <button type="button" className="btn rounded-0">
-                            {" "}
-                            <i className="fa fa-paypal"></i> Log in my Paypal{" "}
-                          </button>
-                        </p>
-                      </div>
-                      <div className="col-md-6 number-paymk">
-                        <form
-                          action="#"
-                          method="post"
-                          className="creditly-card-form-2 shopf-sear-headinfo_form"
-                        >
-                          <section className="creditly-wrapper payf_wrapper">
-                            <div className="credit-card-wrapper">
-                              <div className="first-row form-group">
-                                <div className="controls">
-                                  <label className="control-label">
-                                    Card Holder Name{" "}
-                                  </label>
-                                  <input
-                                    className="billing-address-name form-control rounded-0"
-                                    type="text"
-                                    name="name"
-                                    placeholder="Full Name"
-                                  />
-                                </div>
-                                <div className="paymntf_card_number_grids my-2">
-                                  <div className="fpay_card_number_grid_left">
-                                    <div className="controls">
-                                      <label for="control-label">
-                                        Card number
-                                      </label>
-                                      <div className="input-group">
-                                        <input
-                                          type="text"
-                                          className="form-control rounded-0"
-                                          placeholder="•••• •••• •••• ••••"
-                                          required=""
-                                          maxlength="16"
-                                          pattern="\d{16}"
-                                        />
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <div className="fpay_card_number_grid_right mt-2">
-                                    <div className="controls">
-                                      <label className="control-label">
-                                        CVV
-                                      </label>
-                                      <div className="input-group">
-                                        <input
-                                          type="text"
-                                          className="form-control rounded-0"
-                                          placeholder="••••"
-                                          required=""
-                                          maxlength="3"
-                                          pattern="\d{3}"
-                                        />
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <div className="clear"> </div>
-                                </div>
-                                <div className="controls">
-                                  <label>
-                                    <span className="hidden-xs">
-                                      Expiration Date
-                                    </span>{" "}
-                                  </label>
-                                  <div className="input-group">
-                                    <input
-                                      // type="number"
-                                      className="form-control rounded-0"
-                                      placeholder="MM"
-                                      name=""
-                                      required=""
-                                      maxlength="2"
-                                      pattern="\d{2}"
-                                    />
-                                    <input
-                                      // type="number"
-                                      className="form-control rounded-0"
-                                      placeholder="YY"
-                                      name=""
-                                      required=""
-                                      maxlength="2"
-                                      pattern="\d{2}"
-                                    />
-                                  </div>
-                                </div>
-                              </div>
-                              <button
-                                className="subscribe btn btn-block rounded-0"
-                                type="submit"
-                              >
-                                Proceed Payment
-                              </button>
-                            </div>
-                          </section>
-                        </form>
-                      </div>
-                    </div>
+                    <p>Cash On Delivery</p>
+                    <dl className="param">
+                      <dt>BANK: </dt>
+                      <dd> THE WORLD BANK</dd>
+                    </dl>
+                    <dl className="param">
+                      <dt>Accaunt number: </dt>
+                      <dd> 12345678912345</dd>
+                    </dl>
+                    <dl className="param">
+                      <dt>IBAN: </dt>
+                      <dd> 123456789</dd>
+                    </dl>
+                    <p>
+                      <strong>Note:</strong> Lorem ipsum dolor sit amet,
+                      consectetur adipisicing elit, sed do eiusmod tempor
+                      incididunt ut labore et dolore magna aliqua.{" "}
+                    </p>
                   </div>
                   <div
                     className="tab-pane fade w-100"

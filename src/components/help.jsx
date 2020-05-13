@@ -8,7 +8,7 @@ export default class help extends Component {
         <div className="page-head_agile_info_w3l"></div>
         <div className="services-breadcrumb">
           <div className="agile_inner_breadcrumb">
-            <div className="container">
+            <div className="container-fluid">
               <ul className="w3_short">
                 <li>
                   <Link to="/">Home</Link>
@@ -21,32 +21,31 @@ export default class help extends Component {
         </div>
 
         <div className="faqs-w3l py-sm-5 py-4">
-          <div className="container py-xl-4 py-lg-2">
+          <div className="container-fluid py-xl-4 py-lg-2">
             <h3 className="tittle-w3l text-center mb-lg-5 mb-sm-4 mb-3">
               <span>Help</span> Page
             </h3>
 
-            <div className="wthree-help mb-sm-5 mb-4">
+            {/* <div className="wthree-help mb-sm-5 mb-4">
               <div className="agile-left-help">
                 <h3 className="w3-head">How Can We help you</h3>
                 <form action="#" method="get">
                   <textarea
                     placeholder="Your Query"
                     required=""
-                    className="form-control"
+                    className="form-control rounded-0"
                     cols="40"
                     rows="7"
                     name="message"
                   ></textarea>
-                  <input type="submit" value="Submit" />
+                  <input type="submit" value="Submit" className="rounded-0 mb-3" />
                 </form>
-                <h5 className="my-sm-4 my-3">OR</h5>
                 <Link to="/contactus">Contact Us</Link>
               </div>
-            </div>
+            </div> */}
 
-            <h3 className="w3-head mb-2">Top 10 Frequently asked questions</h3>
-            <div className="container py-xl-4 py-lg-2">
+            <h3 className="mb-2">Top 10 Frequently asked questions</h3>
+            <div className="container-fluid py-lg-2 p-0">
               <p className="font-weight-light mb-2">
                 Welcome to Flashstore.com.pk also hereby known as “we", "us" or
                 "Flash Store". We are an online marketplace and these are the

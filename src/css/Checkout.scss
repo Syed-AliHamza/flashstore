@@ -1,5 +1,5 @@
 .checkout {
-  .container {
+  .container-fluid {
     .btn {
       font-size: 15px;
       background-color: #ffc301;
@@ -52,24 +52,17 @@
                   margin: 0;
                 }
               }
-              p {
-                width: 92px;
-                i {
-                  cursor: pointer;
-                  padding: 5px;
-                  border: 1px solid black;
-                  background-color: white;
-                  &:hover {
-                    background-color: #f2f2f2;
-                  }
-                }
-              }
               span {
                 i {
                   cursor: pointer;
                   background-color: #ffc301;
                   padding: 6px;
                 }
+              }
+              span.x {
+                font-size: 18px !important;
+                padding: 20px;
+                text-align: center;
               }
               img {
                 cursor: pointer;
@@ -111,8 +104,8 @@
 }
 
 .address {
-  // background-color: #f5f5f5;
-  .container {
+  background-color: #f5f5f5;
+  .container-fluid {
     h4 {
       color: #ffc301;
       font-size: 24px;
@@ -120,20 +113,6 @@
     }
     form.form {
       .form-group {
-        // input {
-        //   //   margin-bottom: 10px;
-        //   font-size: 15px;
-        //   letter-spacing: 1px;
-        //   padding: 20px 13px;
-        //   outline: none;
-        //   border: none;
-        //   border: 1px solid transparent;
-        //   box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.31);
-        //   &:active,
-        //   &:focus {
-        //     border: 1px solid #FFC301;
-        //   }
-        // }
         label {
           display: block;
           clear: both;

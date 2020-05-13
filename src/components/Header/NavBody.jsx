@@ -10,7 +10,7 @@ export default class Nav extends Component {
     return (
       <React.Fragment>
         <nav className="sticky-top navbar-expand-md navbar-light flash-navbar m-0 p-0 text-center">
-          <div className="container m-auto clearfix">
+          <div className="container-fluid m-auto clearfix">
             <div className="row d-flex align-items-center justify-content-between py-3 p-0 m-0">
               <div className="col-12 col-md-3 col-lg-2 col-xl-2 p-0 d-none d-lg-block d-md-block m-0">
                 <Link to="/">

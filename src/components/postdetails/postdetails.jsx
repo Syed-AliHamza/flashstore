@@ -66,7 +66,7 @@ class postdetails extends Component {
         <div className="page-head_agile_info_w3l"></div>
         <div className="services-breadcrumb">
           <div className="agile_inner_breadcrumb">
-            <div className="container">
+            <div className="container-fluid">
               <ul className="w3_short">
                 <li>
                   <Link to="/">Home</Link>
@@ -77,17 +77,17 @@ class postdetails extends Component {
             </div>
           </div>
         </div>
-        <div className="container py-5 postdetails">
+        <div className="container-fluid py-5 postdetails">
           {/* {res} */}
           <div className="row py-5">
-            <div className="col-md-6 col-lg-5 pb-3">
+            <div className="col-md-6 pb-3">
               <div className="preview">
                 <div className="preview-pic tab-content">
                   <div
                     className="tab-pane pb-3 active d-flex justify-content-center align-items-center border-bottom"
                     id="pic-1"
                   >
-                    <img src="/images/b4.jpg" />
+                    <img src="/images/Appale-earpod.jpg" />
                   </div>
                   {/* <div className="tab-pane" id="pic-2">
                     <img src="/images/b1.jpg" />
@@ -102,10 +102,10 @@ class postdetails extends Component {
                     <img src="/images/b3.jpg" />
                   </div> */}
                 </div>
-                <ul className="preview-thumbnail nav nav-tabs d-flex justify-content-between">
+                <ul className="preview-thumbnail nav nav-tabs d-flex justify-content-center">
                   <li className="active">
                     <a data-target="#pic-1" data-toggle="tab">
-                      <img src="/images/b4.jpg" />
+                      <img src="/images/Appale-earpod.jpg" />
                     </a>
                   </li>
                   {/* <li>
@@ -131,15 +131,19 @@ class postdetails extends Component {
                 </ul>
               </div>
             </div>
-            <div className="col-md-6 col-lg-7 right-side">
-              <span className="heading">Smartphone</span>
-              <h3 className="py-2 m-0">Audionic Reborn RB-110 Home Theatre</h3>
-              <p className="border-bottom price pb-3 h4">Rs. 2,299 /-</p>
+            <div className="col-md-6 right-side">
+              <span className="heading">Handfree</span>
+              <h3 className="py-2 m-0">
+                Earpods Earphone Stereo Headset mic for Apple/And All Smart
+                Phones.
+              </h3>
+              <p className="border-bottom price pb-3 h4">Rs. 400 /-</p>
               <div className="list">
-                Brand Name: Audionic Reborn RB-110 Home Theatre
+                Brand Name: Earpods Earphone Stereo Headset mic for Apple/And
+                All Smart Phones.
                 <br />
                 Speaker Unit: 8" + 3" x 4<br />
-                Color: Black
+                Color: White
                 <br />
                 Audio Crossover: Full-Range
                 <br />
@@ -200,7 +204,7 @@ class postdetails extends Component {
             </div>
           </div>
           <div className="Tabs py-0">
-            <div className="container">
+            <div className="container-fluid">
               <div className="row">
                 <div className="col-12 m-0 p-0">
                   <nav className="d-flex">
@@ -219,17 +223,6 @@ class postdetails extends Component {
                         aria-selected="false"
                       >
                         Description
-                      </a>
-                      <a
-                        className="nav-item rounded-0 nav-link"
-                        id="nav-contact-tab"
-                        data-toggle="tab"
-                        href="#nav-contact"
-                        role="tab"
-                        aria-controls="nav-contact"
-                        aria-selected="false"
-                      >
-                        Specification
                       </a>
                     </div>
                   </nav>
@@ -279,51 +272,6 @@ class postdetails extends Component {
                           Location: Only in Lahore.
                           <br />
                           Delivery charges: 200
-                        </div>
-                        <div className="col-6 d-none d-sm-block m-0 p-0">
-                          <img
-                            src="/images/b4.jpg"
-                            className="w-100"
-                            alt=""
-                            srcset=""
-                          />
-                        </div>
-                      </div>
-                    </div>
-                    <div
-                      className="tab-pane fade"
-                      id="nav-contact"
-                      role="tabpanel"
-                      aria-labelledby="nav-contact-tab"
-                    >
-                      <div className="row p-4 m-0 d-flex">
-                        <div className="list col-12 col-md-6 m-0 p-0">
-                          <span className="font-weight-bold">
-                            Specifications Details:
-                          </span>
-                          <br />
-                          Brand Name: Audionic Reborn RB-110 Home Theatre
-                          <br />
-                          Speaker Unit: 8" + 3" x 4<br />
-                          Color: Black
-                          <br />
-                          Audio Crossover: Full-Range
-                          <br />
-                          Feature: Display Visual Information
-                          <br />
-                          Material: Plastic
-                          <br />
-                          Waterproof: No
-                          <br />
-                          Support Memory Card: Yes
-                          <br />
-                          Remote Control: Yes
-                          <br />
-                          Voice Control: Yes
-                          <br />
-                          Built-in Microphone: No
-                          <br />
-                          Bluetooth: YES
                         </div>
                         <div className="col-6 d-none d-sm-block m-0 p-0">
                           <img

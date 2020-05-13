@@ -6,7 +6,7 @@ export default class NavHeader extends Component {
     return (
       <React.Fragment>
         <div id="topbar" className="">
-          <div className="container w-100 m-auto clearfix">
+          <div className="container-fluid w-100 m-auto clearfix">
             <div className="contact-info float-left d-none d-lg-block">
               <span className="border-right pr-2">
                 <i className="flaticon-call-1"></i>

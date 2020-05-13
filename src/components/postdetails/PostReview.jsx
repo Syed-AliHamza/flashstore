@@ -4,10 +4,10 @@ export default class PostReview extends Component {
   render() {
     return (
       <div className="">
-        <div className="container m-auto pt-1 pb-5 postreview">
-          <div className="row m-auto p-4 border">
+        <div className="container-fluid m-auto pt-1 pb-5 postreview">
+          <div className="row m-auto py-4">
             <div className="col-12">
-              <h2 className="border-bottom pb-3">Customer Reviews</h2>
+              <h2 className="border-bottom border-dark pb-3">Customer Reviews</h2>
               <h5 className="py-3">Write a Reviews</h5>
               <form method="post" action="/">
                 <div id="register-form">

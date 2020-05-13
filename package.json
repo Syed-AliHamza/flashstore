@@ -18,13 +18,15 @@
     "react-dom": "^16.13.1",
     "react-google-recaptcha": "^2.0.1",
     "react-hook-form": "^5.6.3",
+    "react-notification-alert": "0.0.12",
     "react-recaptcha-google": "^1.1.1",
     "react-router-dom": "^5.1.2",
-    "react-scripts": "^2.1.8"
+    "react-scripts": "^2.1.8",
+    "reactstrap": "^8.4.1"
   },
   "scripts": {
     "server": "nodemon server",
-    "start": "node server/index.js",
+    "start": "react-scripts start",
     "prod": "webpack --config webpack.prod.config.js",
     "build": "react-scripts build",
     "test": "react-scripts test",

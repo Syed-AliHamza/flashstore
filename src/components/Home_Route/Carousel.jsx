@@ -19,9 +19,9 @@ export default class Carousel extends Component {
             <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
           </ol> */}
           <div className="carousel-inner">
-            <div className="sidebar container p-0 m-auto d-none d-sm-block">
+            <div className="sidebar container-fluid m-auto d-none d-sm-block">
               <div className="row p-0 w-100 m-0">
-                <ul className="col-5 col-md-4 col-lg-3 p-0 py-3 m-0 bg-white w-100 h-100">
+                <ul className="col-5 col-md-4 col-lg-3 col-xl-2 p-0 py-3 m-0 bg-white w-100 h-100">
                   <li className="dropdown-item p-0 dropdown dropright">
                     <Link
                       to="/"

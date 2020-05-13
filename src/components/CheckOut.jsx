@@ -82,7 +82,7 @@ export default class CheckOut extends Component {
         <div className="page-head_agile_info_w3l"></div>
         <div className="services-breadcrumb">
           <div className="agile_inner_breadcrumb">
-            <div className="container">
+            <div className="container-fluid">
               <ul className="w3_short">
                 <li>
                   <Link to="/">Home</Link>
@@ -94,9 +94,9 @@ export default class CheckOut extends Component {
           </div>
         </div>
         <div className="checkout py-sm-5 py-4">
-          <div className="container py-xl-4 py-lg-2">
+          <div className="container-fluid py-xl-4 py-lg-2">
             <h3 className="text-center">Shopping Cart</h3>
-            <div className="checkout-detail alert">
+            <div className="checkout-detail alert p-0">
               <h4 className="mb-sm-4 mb-3">
                 Your shopping cart contains:
                 <span> 4</span> Products
@@ -132,7 +132,7 @@ export default class CheckOut extends Component {
                     {this.state.data.map((v, k) => {
                       return (
                         <React.Fragment key={k}>
-                          <tr className="products alert show fade border-bottom rounded-0">
+                          <tr className="products p-0 alert show fade border-bottom rounded-0">
                             <td className="px-2 py-3" scope="row">
                               {k + 1}
                             </td>
@@ -151,7 +151,7 @@ export default class CheckOut extends Component {
                               <span className="" onClick={this.decrementCount}>
                                 <i className="fa fa-minus"></i>
                               </span>
-                              <span className="px-1 px-lg-3 py-1">
+                              <span className="p-1 px-lg-3">
                                 {this.state.count}
                               </span>
                               <span className="" onClick={this.incrementCount}>
@@ -163,6 +163,7 @@ export default class CheckOut extends Component {
                             </td>
                             <td className="px-2 py-3 text-center">
                               <span
+                                className="x m-0"
                                 data-dismiss="alert"
                                 style={{ cursor: "pointer" }}
                               >
@@ -170,76 +171,22 @@ export default class CheckOut extends Component {
                               </span>
                             </td>
                           </tr>
-                          {/* <tr className="products p-0 py-2 m-0 row alert show fade border-bottom rounded-0 d-flex align-items-center">
-                            <td className="col-4 col-md-2 p-0 d-flex align-items-center justify-content-center">
-                              <Link to="/postdetail">
-                                <img
-                                  src={v.img}
-                                  alt=" "
-                                  className="img-responsive"
-                                  style={{ width: "100px", height: "80px" }}
-                                />
-                              </Link>
-                            </td>
-                            <td className="d-flex align-items-center col-6 col-md-4 text-left">
-                              {v.name}
-                            </td>
-                            <td className="d-flex align-items-center justify-content-center col-1 col-md-2">
-                              Rs. {v.price}
-                            </td>
-                            <td className="p-0 d-flex align-items-center justify-content-center col-3 col-md-1">
-                              <div className="p-2 d-flex align-items-cneter border justify-content-between flex-row w-100">
-                                <span style={{ cursor: "pointer" }}>
-                                  <i
-                                    className="fa fa-minus flex-start"
-                                    onClick={this.decrementCount}
-                                  ></i>
-                                </span>
-                                <span className="">{this.state.count}</span>
-                                <span style={{ cursor: "pointer" }}>
-                                  <i
-                                    className="fa fa-plus"
-                                    onClick={this.incrementCount}
-                                  ></i>
-                                </span>
-                              </div>
-                            </td>
-                            <td className="d-flex align-items-center justify-content-center col-4 col-md-2">
-                              Rs. {this.calculateTotal}/-
-                            </td>
-                            <td className="col-1 col-md-1 d-flex align-items-center justify-content-center">
-                              <span
-                                data-dismiss="alert"
-                                style={{ cursor: "pointer" }}
-                              >
-                                &times;
-                              </span>
-                            </td>
-                          </tr> */}
                         </React.Fragment>
                       );
                     })}
                   </tbody>
                 </table>
-                <div className="row py-3 m-auto d-flex justify-content-end">
-                  {/* <div className="col col-md-4 m-0 p-0 d-flex justify-content-between"> */}
+                <div className="row py-3 m-auto d-flex justify-content-center">
                   <Link to="/" className="btn rounded-0">
                     Continue Shipping
                   </Link>
-                  {/* <button
-                        className="btn clear rounded-0"
-                        data-dismiss="alert"
-                      >
-                        Clear Cart
-                      </button> */}
-                  {/* </div> */}
                 </div>
               </div>
             </div>
           </div>
         </div>
         <div className="address m-auto">
-          <div className="container py-5">
+          <div className="container-fluid py-5">
             <h4 className="mb-sm-4 mb-3">Add a new Details</h4>
             <form action="/payment" className="form row">
               {this.state.form.map((v, k) => {
@@ -261,8 +208,8 @@ export default class CheckOut extends Component {
                   </React.Fragment>
                 );
               })}
-              <div className="col-12 px-lg-3 pl-md-3 form-group">
-                <button type="submit" className="btn rounded-0">
+              <div className="col-12 px-lg-3 pl-md-3 form-group d-flex justify-content-center">
+                <button type="submit" className="btn rounded-0 text-dark">
                   Delivery to this Address
                 </button>
               </div>

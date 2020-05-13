@@ -8,7 +8,7 @@ export default class privacy extends Component {
         <div className="page-head_agile_info_w3l"></div>
         <div className="services-breadcrumb">
           <div className="agile_inner_breadcrumb">
-            <div className="container">
+            <div className="container-fluid">
               <ul className="w3_short">
                 <li>
                   <Link to="/">Home</Link>
@@ -20,7 +20,7 @@ export default class privacy extends Component {
           </div>
         </div>
         <div className="terms py-sm-5 py-4">
-          <div className="container py-xl-4 py-lg-2">
+          <div className="container-fluid py-xl-4 py-lg-2">
             <h3 className="text-center mb-lg-3 mb-sm-4 mb-3">Privacy Policy</h3>
             <h6 className="my-md-4 my-1">Privacy Policy</h6>
             <p className="font-weight-light mb-2">

@@ -8,7 +8,7 @@ export default class StoreLocation extends Component {
         <div className="page-head_agile_info_w3l"></div>
         <div className="services-breadcrumb">
           <div className="agile_inner_breadcrumb">
-            <div className="container">
+            <div className="container-fluid">
               <ul className="w3_short">
                 <li>
                   <Link to="/">Home</Link>
@@ -20,7 +20,7 @@ export default class StoreLocation extends Component {
           </div>
         </div>
         <div id="main-content">
-          <div className="container py-5">
+          <div className="container-fluid py-5">
             <div className="row">
               <div className="col-panel col-xl-3 col-lg-4 col-12 mb-3">
                 <h4 className="border-bottom h2 mb-4">

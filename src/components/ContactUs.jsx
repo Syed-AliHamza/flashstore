@@ -13,7 +13,7 @@ export default function ContactUs() {
       <div className="page-head_agile_info_w3l"></div>
       <div className="services-breadcrumb">
         <div className="agile_inner_breadcrumb">
-          <div className="container">
+          <div className="container-fluid">
             <ul className="w3_short">
               <li>
                 <Link to="/">Home</Link>
@@ -25,7 +25,7 @@ export default function ContactUs() {
         </div>
       </div>
       <div id="main-content">
-        <div className="container py-5">
+        <div className="container-fluid py-5">
           <div className="row">
             <div className="col-sm-6 col-xs-12">
               <div className="form-wrapper">

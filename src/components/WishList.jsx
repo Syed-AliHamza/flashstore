@@ -77,7 +77,7 @@ export default class WishList extends Component {
         <div className="page-head_agile_info_w3l"></div>
         <div className="services-breadcrumb">
           <div className="agile_inner_breadcrumb">
-            <div className="container">
+            <div className="container-fluid">
               <ul className="w3_short">
                 <li>
                   <Link to="/">Home</Link>
@@ -89,7 +89,7 @@ export default class WishList extends Component {
           </div>
         </div>
         <div className="wishlist py-sm-5 py-4">
-          <div className="container py-xl-4 py-lg-2">
+          <div className="container-fluid py-xl-4 py-lg-2">
             <div className="wishlist-detail">
               <h4 className="mb-sm-4 mb-3">
                 Your wishlist contains:

@@ -4,7 +4,7 @@ export default class About extends Component {
   render() {
     return (
       <div>
-        <div class="page-head_agile_info_w3l"></div>
+        {/* <div class="page-head_agile_info_w3l"></div>
         <div class="services-breadcrumb">
           <div class="agile_inner_breadcrumb">
             <div class="container">
@@ -17,9 +17,9 @@ export default class About extends Component {
               </ul>
             </div>
           </div>
-        </div>
+        </div> */}
 
-        <div class="welcome py-sm-5 py-4">
+        {/* <div class="welcome py-sm-5 py-4">
           <div class="container py-xl-4 py-lg-2">
             <h3 class="tittle-w3l text-center mb-lg-5 mb-sm-4 mb-3">
               <span>A</span>bout
@@ -46,7 +46,7 @@ export default class About extends Component {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     );
   }
