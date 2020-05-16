@@ -12,7 +12,7 @@ function Footer() {
         <div className="categories py-5">
           <div className="container-fluid py-md-5 py-sm-4 py-3">
             <div className="row footer-info">
-              <div className="col-md-4 col-sm-6 footer-grids mt-md-0 mt-4">
+              <div className="col-md-4 col-sm-6 footer-grids mt-md-0">
                 <h2 className="text-white mb-3">Electronics :</h2>
                 <p className="m-0 p-0 footer-main">
                   If you're considering a new laptop, looking for a powerful new
@@ -53,8 +53,7 @@ function Footer() {
                 <h3 className="text-white mb-3">Get in Touch</h3>
                 <ul className="m-0 p-0">
                   <li className="mb-3">
-                    <i className="fa fa-map-marker"></i> Daroghawala Chowk
-                    <br /> Near Qadri Auto Shop <br /> 54000 LAHORE
+                    <i className="fa fa-map-marker"></i> Daroghawala Chowk Near Qadri Auto Shop 54000 LAHORE
                   </li>
                   <li className="mb-3">
                     <Link to="/" href="mailto:0307-4190145">
@@ -80,7 +79,7 @@ function Footer() {
                   Free Delivery on orders over Rs.2,000/-
                 </p>
                 <form action="/" method="post">
-                  <div className="form-group">
+                  <div className="form-group d-flex">
                     <input
                       type="email"
                       className="form-control rounded-0"
@@ -92,7 +91,7 @@ function Footer() {
                   </div>
                 </form>
                 <div className="footer-grids mt-3">
-                  <h3 className="text-white  mb-3">Follow Us on</h3>
+                  <h3 className="text-white mb-3">Follow Us on</h3>
                   <div className="social d-flex">
                     <a
                       href="https://www.facebook.com/flashstorepk/"
@@ -119,7 +118,7 @@ function Footer() {
             <div className="col-12 col-md-6 py-2 text-center text-md-left">
               <p className="p-0 m-0">© 2020 Flash Store. All rights reserved</p>
             </div>
-            <div className="col-12 col-md-6 py-2 text-md-right text-center sub-some child-momu">
+            <div className="col-12 col-md-6 py-2 text-md-right text-center d-none d-lg-block">
               <img src="./images/pay2.png" alt="" />
               <img src="./images/pay1.png" alt="" />
               <img src="./images/pay3.png" alt="" />

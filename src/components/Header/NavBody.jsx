@@ -42,15 +42,16 @@ export default class Nav extends Component {
                   method="get"
                 >
                   <input
-                    className="form-control rounded-0 "
+                    className="form-control rounded-0"
                     type="search"
                     placeholder="Search for Products"
                     aria-label="Search"
                     id="mysearch"
                   />
-                  <button type="submit" className="btn px-4 rounded-0">
+                  {/* <button type="submit" className="btn px-4 rounded-0">
                     <i className="fa fa-search"></i>
-                  </button>
+                  </button> */}
+                  <input type="submit" value="Go" className="rounded-0 px-1 col-2 col-lg-1" />
                 </form>
               </div>
               <div className="header-icons p-0 col-3 col-lg-2 d-none d-md-block">

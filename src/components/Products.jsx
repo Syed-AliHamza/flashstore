@@ -574,15 +574,15 @@ export default class Musicandheadphones extends Component {
                               data-toggle="modal"
                               data-target="#myModal"
                             >
-                              <i className="fa fa-eye pr-2"></i>
+                              <i className="fa fa-eye pr-1"></i>
                               Quik View
                             </span>
                             <Link
                               to="/wishlist"
-                              className=" p-0 text-uppercase rounded-0"
+                              className="p-0 text-uppercase rounded-0"
                             >
-                              <i className="fa fa-heart pr-2"></i>
-                              Wish List
+                              <i className="flaticon-heart pr-1"></i>
+                              WishList
                             </Link>
                           </div>
                           <div className="m-2">

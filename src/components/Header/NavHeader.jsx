@@ -36,9 +36,9 @@ export default class NavHeader extends Component {
                 </Link>
               </span>
               <span className="text-muted">or</span>
-              <span className=" border-right">
+              <span className="p-0">
                 <Link to="/account/login">
-                  <i className="flaticon-user-1"></i>Sign in
+                  <i className="flaticon-user-1"></i> Log in
                 </Link>
               </span>
             </div>
