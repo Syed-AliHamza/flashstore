@@ -1,0 +1,137 @@
+.project-tab {
+  background-color: white !important;
+}
+
+.project-tab .project-tab #tabs {
+  background: #007b5e;
+  color: #eee;
+}
+
+.project-tab .project-tab #tabs h6.section-title {
+  color: #eee;
+}
+
+.project-tab .project-tab #tabs .nav-tabs .nav-item.show .nav-link,
+.project-tab .nav-tabs .nav-link {
+  border-color: transparent;
+}
+
+.project-tab .project-tab #tabs .nav-tabs .nav-item.show .nav-link,
+.project-tab .nav-tabs .nav-link.active {
+  color: #ffc301;
+  border-color: transparent transparent #f3f3f3;
+  border-bottom: 3px solid !important;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.project-tab .project-tab .nav-link {
+  border: 1px solid transparent;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+  color: #ffc301;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.project-tab .project-tab .nav-link:hover {
+  border: none;
+}
+
+.project-tab .project-tab thead {
+  background: #f3f3f3;
+  color: #333;
+}
+
+.project-tab .project-tab a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 600;
+}
+
+.project-tab .nav-tabs a {
+  color: black;
+  font-weight: bold;
+}
+
+.project-tab .container .row .col-md-12 .tab-content .tab-pane .product {
+  border-radius: 0;
+}
+
+.project-tab .container .row .col-md-12 .tab-content .tab-pane .product .card {
+  height: auto;
+  border: none;
+  background-color: transparent !important;
+  border-radius: 0;
+  text-align: left;
+}
+
+.project-tab .container .row .col-md-12 .tab-content .tab-pane .product .card .cardss a {
+  list-style: none;
+  text-decoration: none;
+  outline: none;
+}
+
+.project-tab .container .row .col-md-12 .tab-content .tab-pane .product .card .cardss span {
+  color: grey;
+  text-transform: uppercase;
+  font-size: 9px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.project-tab .container .row .col-md-12 .tab-content .tab-pane .product .card .cardss span.btn {
+  font-weight: 400;
+  font-size: 11px;
+  color: grey;
+}
+
+.project-tab .container .row .col-md-12 .tab-content .tab-pane .product .card .cardss span.btn:hover {
+  color: #ffc301;
+}
+
+.project-tab .container .row .col-md-12 .tab-content .tab-pane .product .card .cardss h5 {
+  font-size: 12px;
+  letter-spacing: 1px;
+  color: black;
+  font-weight: normal;
+}
+
+.project-tab .container .row .col-md-12 .tab-content .tab-pane .product .card .cardss img {
+  height: 150px;
+}
+
+.project-tab .container .row .col-md-12 .tab-content .tab-pane .product .card .cardss p {
+  color: black;
+}
+
+.project-tab .container .row .col-md-12 .tab-content .tab-pane .product .card .cardss button {
+  outline: none;
+  background: none;
+  border: 1px solid #ffc301;
+  border-radius: 10px 0px 10px 0px;
+  -webkit-transition: 0.35s;
+  transition: 0.35s;
+}
+
+.project-tab .container .row .col-md-12 .tab-content .tab-pane .product .card .cardss button:hover {
+  border-radius: 10px 0px 10px 0px;
+  border: 1px solid #ffc301;
+  color: white;
+  background-color: #ffc301;
+  cursor: pointer;
+}
+
+.project-tab .container .row .col-md-12 .tab-content .tab-pane .product .card .cardss:hover p {
+  -webkit-transition: 0.35s;
+  transition: 0.35s;
+  color: black;
+}
+
+.project-tab .container .row .col-md-12 .tab-content .tab-pane .product .card .cardss:hover span {
+  color: black;
+}
+/*# sourceMappingURL=Tabs.css.map */

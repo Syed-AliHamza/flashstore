@@ -1,0 +1,53 @@
+.page-head_agile_info_w3l {
+  background: url(/images/b1.jpg) no-repeat center;
+  background-size: cover;
+  min-height: 300px;
+}
+
+.terms h6 {
+  font-size: 20px;
+  color: #000;
+  letter-spacing: 1px;
+}
+
+.terms p {
+  color: #777;
+  font-size: 15px;
+  letter-spacing: 0px;
+}
+
+.terms ol li {
+  color: #777;
+  font-size: 15px;
+  line-height: 26px;
+}
+
+ul.w3_short li {
+  display: inline-block;
+  text-transform: uppercase;
+  color: #000;
+  font-size: 0.9em;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+ul.w3_short li a {
+  color: #ffc301;
+  text-decoration: none;
+}
+
+.services-breadcrumb {
+  padding: 0;
+  background: #eee;
+  text-align: center;
+}
+
+.services-breadcrumb ul li i {
+  padding: 0 1em;
+}
+
+ul.w3_short {
+  text-align: left;
+  padding: 16px 0;
+}
+/*# sourceMappingURL=term.css.map */

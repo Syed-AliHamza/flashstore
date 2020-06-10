@@ -1,0 +1,160 @@
+.carousel-item.item1 img {
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-item.item4,
+.carousel-item.item3,
+.carousel-item.item2,
+.carousel-item.item1 {
+  height: 350px;
+}
+
+.carousel-caption {
+  width: 70%;
+  height: 100vh;
+  background: rgba(16, 16, 16, 0.27);
+  text-align: left;
+  position: relative;
+}
+
+.carousel-caption h2,
+.carousel-caption h3 {
+  font-size: 60px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+.carousel-caption h2 span,
+.carousel-caption h3 span {
+  font-weight: 800;
+  color: #ffc301;
+}
+
+.carousel-caption p {
+  letter-spacing: 3px;
+  font-size: 24px;
+  color: #fff;
+}
+
+.carousel-caption p span {
+  font-size: 40px;
+  letter-spacing: 0px;
+  font-weight: 600;
+}
+
+.carousel-caption .button2 {
+  display: inline-block;
+  background: #ffc301;
+  border-radius: 0px;
+  color: #fff;
+  letter-spacing: 2px;
+  padding: 11px 27px;
+}
+
+.carousel-caption .button2:hover, .carousel-caption .button2:focus {
+  text-decoration: none;
+  background: #ffc301;
+  color: #fff;
+}
+
+.carousel-inner {
+  position: relative;
+}
+
+.carousel-inner .sidebar.container-fluid {
+  position: absolute;
+  height: 100%;
+  z-index: 1000;
+}
+
+.carousel-inner .sidebar.container-fluid .row {
+  position: absolute;
+  top: 0;
+  height: 100%;
+}
+
+.carousel-inner .sidebar.container-fluid ul .dropdown-item {
+  font-size: 15px;
+  position: relative;
+  cursor: pointer;
+  -webkit-transition: 0.9s;
+  transition: 0.9s;
+}
+
+.carousel-inner .sidebar.container-fluid ul .dropdown-item a {
+  list-style: none;
+  text-decoration: none;
+  outline: none;
+  letter-spacing: 0.05em;
+  color: grey;
+  font-size: 13px;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  line-height: 35px;
+}
+
+.carousel-inner .sidebar.container-fluid ul .dropdown-item a:active, .carousel-inner .sidebar.container-fluid ul .dropdown-item a:focus, .carousel-inner .sidebar.container-fluid ul .dropdown-item a:hover {
+  color: black;
+  background-color: #ececec;
+}
+
+.carousel-inner .sidebar.container-fluid ul .dropdown-item.active, .carousel-inner .sidebar.container-fluid ul .dropdown-item:focus, .carousel-inner .sidebar.container-fluid ul .dropdown-item:hover {
+  background-color: #ececec;
+}
+
+.carousel-inner .sidebar.container-fluid ul .dropdown-item:hover .icon-right {
+  color: #ffc301;
+}
+
+.carousel-inner .sidebar.container-fluid ul .dropdown-menu {
+  top: 0;
+  width: 100%;
+  left: 100%;
+  margin-top: -16px;
+  height: 352px;
+  border-left: 1px solid #ececec !important;
+  margin-left: -0.5px;
+}
+
+.carousel-inner .sidebar.container-fluid ul .dropdown-menu1 {
+  margin-top: -51px;
+}
+
+.carousel-inner .sidebar.container-fluid ul .dropdown-menu2 {
+  margin-top: -86px;
+}
+
+.carousel-inner .sidebar.container-fluid ul .dropdown-menu3 {
+  margin-top: -121px;
+}
+
+.carousel-inner .sidebar.container-fluid ul .dropdown-menu4 {
+  margin-top: -156px;
+}
+
+.carousel-inner .sidebar.container-fluid ul .dropdown-menu5 {
+  margin-top: -191px !important;
+}
+
+.carousel-inner .sidebar.container-fluid ul .dropdown-menu6 {
+  margin-top: -226px;
+}
+
+.carousel-inner .sidebar.container-fluid ul .dropdown-menu7 {
+  margin-top: -262px;
+}
+
+.carousel-inner .sidebar.container-fluid ul .dropdown-menu8 {
+  margin-top: -297px;
+}
+
+@media (max-width: 530px) {
+  .carousel-item.item4,
+  .carousel-item.item3,
+  .carousel-item.item2,
+  .carousel-item.item1 {
+    height: 200px;
+  }
+}
+/*# sourceMappingURL=Carousel.css.map */

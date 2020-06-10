@@ -26,8 +26,8 @@ class App extends Component {
       <React.Fragment>
         <Navbar />
         <Route exact path="/" component={Home} />
-        <Route path="/postdetail" component={Postdetails} />
-        {/* <Route path="/postdetail/:id" render={() => <Postdetails />} /> */}
+        {/* <Route path="/postdetail" component={Postdetails} /> */}
+        <Route path="/postdetail/:id" render={() => <Postdetails />} />
         <Route path="/search" component={Search} />
         <Route path="/Term" component={Term} />
         <Route path="/help" component={help} />

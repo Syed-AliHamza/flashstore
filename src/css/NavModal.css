@@ -1,0 +1,61 @@
+#navbarSupportedContent {
+  height: 100vh;
+}
+
+#navbarSupportedContent .modal-dialog {
+  width: 300px;
+  margin: 0;
+}
+
+#navbarSupportedContent .modal-dialog .modal-content {
+  border-radius: 0;
+  height: 100vh;
+  color: #545454;
+}
+
+#navbarSupportedContent .modal-dialog .modal-content .model-header {
+  background-color: #FFC301;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+#navbarSupportedContent .modal-dialog .modal-content .model-header a {
+  text-decoration: none;
+  list-style: none;
+  outline: none;
+  color: #545454;
+  padding: 5px;
+  cursor: pointer;
+}
+
+#navbarSupportedContent .modal-dialog .modal-content .model-header a i {
+  font-size: 20px;
+  padding: 0px;
+}
+
+#navbarSupportedContent .modal-dialog .modal-content .modal-body {
+  font-size: 14px;
+  height: 84vh;
+}
+
+#navbarSupportedContent .modal-dialog .modal-content .modal-body .navbar-nav .nav-item a {
+  color: #545454;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+#navbarSupportedContent .modal-dialog .modal-content .modal-footer {
+  background-color: #FFC301;
+  font-size: 12px;
+}
+
+#navbarSupportedContent .modal-dialog .modal-content .modal-footer a {
+  text-decoration: none;
+  list-style: none;
+  outline: none;
+  margin: 0;
+  color: #545454;
+  padding: 5px;
+  cursor: pointer;
+}
+/*# sourceMappingURL=NavModal.css.map */

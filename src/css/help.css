@@ -1,0 +1,43 @@
+.wthree-help textarea {
+  font-size: 16px;
+  color: #000;
+  width: 90%;
+  border: none;
+  padding: 16px;
+  border-bottom: solid 1px #FFC301;
+  height: 150px;
+  outline: none;
+  resize: none;
+}
+
+.wthree-help form input[type="submit"] {
+  font-size: 16px;
+  color: #fff;
+  background: #FFC301;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  padding: 12px 45px;
+  -webkit-appearance: none;
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
+  margin-top: 20px;
+}
+
+.wthree-help form input[type="submit"]:hover {
+  background: #FFC301;
+  -webkit-transform: translateY(8px);
+  transform: translateY(8px);
+}
+
+.wthree-help h5 {
+  font-size: 25px;
+  color: #000;
+}
+
+.wthree-help a {
+  color: #fff;
+  padding: 10px 20px;
+  background: #FFC301;
+}
+/*# sourceMappingURL=help.css.map */

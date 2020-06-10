@@ -25,42 +25,102 @@ class postdetails extends Component {
   };
 
   render() {
-    // let res = this.state.postdetails.map((res, i) => {
-    //   return (
-    //     <React.Fragment key={i}>
-    //       <div className="row">
-    //         <div className="col-md-5">
-    //           <img
-    //             style={{ width: "100%" }}
-    //             className="maginify"
-    //             src={res.image}
-    //             alt=""
-    //           />
-    //         </div>
-    //         <div className="col-md-7">
-    //           <p>{res.Title}</p>
-    //           <h1>{res.Heading}</h1>
-    //           <hr /> <br />
-    //           <span>
-    //             <i className="fa fa-heart"></i> Wishlist{" "}
-    //           </span>
-    //           <span>
-    //             <i className="fa fa-refresh"></i> Compare
-    //           </span>
-    //           <div className="list">
-    //             <ul className="list-unstyled">
-    //               <li>
-    //                 Products
-    //                 <p>{res.Desc}</p>
-    //               </li>
-    //             </ul>
-    //           </div>
-    //           <h1 style={{ fontSize: "35px" }}>{res.price}</h1>
-    //         </div>
-    //       </div>
-    //     </React.Fragment>
-    //   );
-    // });
+    let res = this.state.postdetails.map((res, i) => {
+      return (
+        <React.Fragment key={i}>
+          <div className="row py-5">
+            <div className="col-md-6 pb-3">
+              <div className="preview">
+                <div className="preview-pic tab-content">
+                  <div
+                    className="tab-pane pb-3 active d-flex justify-content-center align-items-center border-bottom"
+                    id="pic-1"
+                  >
+                    <img src={res.image} />
+                  </div>
+                </div>
+                <ul className="preview-thumbnail nav nav-tabs d-flex justify-content-center">
+                  <li className="active">
+                    <a data-target="#pic-1" data-toggle="tab">
+                      <img src={res.image} />
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div className="col-md-6 right-side">
+              <span className="heading">{res.Title}</span>
+              <h3 className="py-2 m-0">{res.Heading}</h3>
+              <p className="border-bottom price pb-3 h4">Rs. 400 /-</p>
+              <div className="list">
+                Brand Name: {res.Heading}
+                <br />
+                {res.Desc}
+                Speaker Unit: 8" + 3" x 4<br />
+                Color: White
+                <br />
+                Audio Crossover: Full-Range
+                <br />
+                Feature: Display Visual Information
+                <br />
+                Material: Plastic
+                <br />
+                Waterproof: No
+                <br />
+                Support Memory Card: Yes
+                <br />
+                Remote Control: Yes
+                <br />
+                Voice Control: Yes
+                <br />
+                Built-in Microphone: No
+                <br />
+                Bluetooth: YES
+              </div>
+              <div className="quantity">
+                <div className="row m-auto p-0 d-flex justify-content-between flex-column">
+                  <div className="p-0 pt-3 col-lg-6 col-12 d-flex align-items-center justify-content-between flex-row">
+                    <div className="w-100">
+                      <h6 className="p-0 m-0">Color:</h6>{" "}
+                    </div>
+                    <select className="form-control custom-select rounded-0 w-100">
+                      <option value="0">Choose Color</option>
+                      <option value="1">White</option>
+                      <option value="2">Black</option>
+                    </select>
+                  </div>
+                  <div className="p-0 my-3 col-lg-6 col-12 d-flex align-items-center justify-content-between flex-row">
+                    <div className="w-100">
+                      <h6 className="p-0 m-0">Quantity:</h6>{" "}
+                    </div>
+                    <div className="border w-100 d-flex align-items-center justify-content-between flex-row p-0">
+                      <span className="" onClick={this.decrementCount}>
+                        <i className="fa fa-minus flex-start"></i>
+                      </span>
+                      <span className="">{this.state.count}</span>
+                      <span className="" onClick={this.incrementCount}>
+                        <i className="fa fa-plus"></i>
+                      </span>
+                    </div>
+                  </div>
+                  <div className="p-0 w-100 col-lg-6 col-12 text-center d-flex align-items-center justify-content-between flex-row">
+                    <Link
+                      to="/checkout"
+                      type="button"
+                      className="btn w-100 p-2 px-3 text-uppercase rounded-0"
+                    >
+                      <i className="flaticon-shopping-bag pr-2"></i>
+                      Add to Cart
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </React.Fragment>
+      );
+    });
+    console.log("data", res);
     return (
       <React.Fragment>
         <div className="page-head_agile_info_w3l"></div>
@@ -78,8 +138,9 @@ class postdetails extends Component {
           </div>
         </div>
         <div className="container-fluid py-5 postdetails">
-          {/* {res} */}
-          <div className="row py-5">
+          {res}
+
+          {/* <div className="row py-5">
             <div className="col-md-6 pb-3">
               <div className="preview">
                 <div className="preview-pic tab-content">
@@ -89,18 +150,6 @@ class postdetails extends Component {
                   >
                     <img src="/images/Appale-earpod.jpg" />
                   </div>
-                  {/* <div className="tab-pane" id="pic-2">
-                    <img src="/images/b1.jpg" />
-                  </div>
-                  <div className="tab-pane" id="pic-3">
-                    <img src="/images/a3.jpg" />
-                  </div>
-                  <div className="tab-pane" id="pic-4">
-                    <img src="/images/a.jpg" />
-                  </div>
-                  <div className="tab-pane" id="pic-5">
-                    <img src="/images/b3.jpg" />
-                  </div> */}
                 </div>
                 <ul className="preview-thumbnail nav nav-tabs d-flex justify-content-center">
                   <li className="active">
@@ -108,26 +157,6 @@ class postdetails extends Component {
                       <img src="/images/Appale-earpod.jpg" />
                     </a>
                   </li>
-                  {/* <li>
-                    <a data-target="#pic-2" data-toggle="tab">
-                      <img src="/images/b1.jpg" />
-                    </a>
-                  </li>
-                  <li>
-                    <a data-target="#pic-3" data-toggle="tab">
-                      <img src="/images/a3.jpg" />
-                    </a>
-                  </li>
-                  <li>
-                    <a data-target="#pic-4" data-toggle="tab">
-                      <img src="/images/a.jpg" />
-                    </a>
-                  </li>
-                  <li>
-                    <a data-target="#pic-5" data-toggle="tab">
-                      <img src="/images/b3.jpg" />
-                    </a>
-                  </li> */}
                 </ul>
               </div>
             </div>
@@ -202,7 +231,7 @@ class postdetails extends Component {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
           <div className="Tabs py-0">
             <div className="container-fluid">
               <div className="row">

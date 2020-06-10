@@ -1,0 +1,137 @@
+footer p.footer-main {
+  color: #bdbdbd;
+  font-size: 15px;
+  margin-bottom: 40px;
+  text-align: justify;
+}
+
+footer .row.footer-info h3 {
+  font-size: 22px;
+  letter-spacing: 1px;
+}
+
+footer .row.footer-info .footer-grids ul li {
+  display: block;
+  font-size: 14px;
+  color: #bdbdbd;
+}
+
+footer .row.footer-info .footer-grids ul li a {
+  color: #bdbdbd;
+  font-weight: normal;
+  text-decoration: none;
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
+}
+
+footer .row.footer-info .footer-grids ul li a:hover {
+  color: #ffc301;
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
+}
+
+.categories {
+  background: #333;
+}
+
+.social_icons {
+  text-align: center;
+}
+
+.social a {
+  position: relative;
+  display: inline-block;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  margin: 4px;
+  text-align: center;
+}
+
+.social a i {
+  color: #fff;
+  line-height: 34px;
+  font-size: 1em;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  padding: 0;
+}
+
+.social .fb {
+  background: #6788ce;
+}
+
+.social .tw {
+  background: #00acee;
+}
+
+.social .in {
+  background: #dd4b39;
+}
+
+input[type="email"] {
+  display: inline-block;
+  background: #f5f5f5;
+  border: none;
+  width: 82%;
+  padding: 22px 15px;
+  font-size: 14px;
+  color: #000;
+  border-radius: 0;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  letter-spacing: 1px;
+  outline: 0;
+}
+
+input[type="submit"] {
+  outline: none;
+  color: #ffffff;
+  padding: 10px;
+  letter-spacing: 1px;
+  width: 18%;
+  background: #ffc301;
+  border: none;
+  cursor: pointer;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
+}
+
+input[type="submit"]:hover {
+  background: #ffc301;
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
+}
+
+.sub-some h5 {
+  font-size: 19px;
+  color: #696969;
+  letter-spacing: 1px;
+}
+
+.sub-some p {
+  font-size: 13px;
+  letter-spacing: 0px;
+}
+
+.sub-some ul li {
+  display: inline-block;
+}
+
+.sub-some ul li a {
+  font-size: 13px;
+  color: #999;
+}
+
+.copy-right {
+  background: #eaeaea;
+}
+
+.copy-right p {
+  letter-spacing: 1px;
+  font-size: 13px;
+}
+/*# sourceMappingURL=Footer.css.map */

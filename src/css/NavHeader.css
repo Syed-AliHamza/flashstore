@@ -1,0 +1,74 @@
+#topbar {
+  background: #ECECEC;
+  padding: 5px 0;
+  border-bottom: 1px solid #eee;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+#topbar .contact-info {
+  line-height: 28px;
+  font-size: 13px;
+  color: #333e48;
+}
+
+#topbar .contact-info a {
+  line-height: 28px;
+  font-size: 13px;
+  color: #333e48;
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#topbar .contact-info a:hover {
+  color: #FFC301;
+  list-style: none;
+  text-decoration: none;
+}
+
+#topbar .contact-info i {
+  color: #FFC301;
+  padding: 0 10px 0 0;
+  font-size: 11px;
+}
+
+#topbar .social-links a {
+  line-height: 28px;
+  font-size: 13px;
+  color: #333e48;
+  padding: 0px 12px;
+  display: inline-block;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  margin: 0;
+}
+
+#topbar .social-links a:hover {
+  color: #FFC301;
+  list-style: none;
+  text-decoration: none;
+}
+
+#topbar .social-links a:hover i {
+  color: #FFC301;
+}
+
+#topbar .social-links a i {
+  color: #333e48;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  padding: 0 4px 0 0;
+  margin: 0;
+}
+
+#topbar [class^="flaticon-"]:before,
+#topbar [class*=" flaticon-"]:before,
+#topbar [class^="flaticon-"]:after,
+#topbar [class*=" flaticon-"]:after {
+  font-family: Flaticon;
+  font-size: 13px;
+  font-style: normal;
+  margin: 0px;
+}
+/*# sourceMappingURL=NavHeader.css.map */

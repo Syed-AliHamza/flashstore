@@ -1,0 +1,100 @@
+.features-sale {
+  background: url(/images/bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.features-sale .text {
+  background: #efedee;
+  -webkit-box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.04);
+          box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.04);
+  border-radius: 0px;
+}
+
+.features-sale .text .offer-name i {
+  font-size: 41px;
+  line-height: 1.4;
+  color: #ffc301;
+}
+
+.features-sale .text .offer-name [class^="flaticon-"]:before,
+.features-sale .text .offer-name [class*=" flaticon-"]:before,
+.features-sale .text .offer-name [class^="flaticon-"]:after,
+.features-sale .text .offer-name [class*=" flaticon-"]:after {
+  font-family: Flaticon;
+  font-size: 41px;
+  font-style: normal;
+  margin: 0px !important;
+  padding: 0;
+}
+
+.features-sale .text h3 {
+  color: #000;
+  font-size: 26px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.container .row .feature h4 {
+  border-bottom: 1px solid lightgrey;
+  color: black;
+  margin-top: 10px;
+  font-weight: normal;
+  letter-spacing: 1px;
+  font-size: 20px;
+}
+
+.container .row .feature h4 p {
+  border-bottom: 2px solid #ffc301;
+  padding-bottom: 10px;
+  margin-bottom: -1px;
+  width: 100px;
+}
+
+.container .row .feature .row {
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
+}
+
+.container .row .feature .row .col-4 img {
+  width: 100%;
+}
+
+.container .row .feature .row:hover {
+  cursor: pointer;
+}
+
+.container .row .feature .row .col-8 h5 {
+  color: black;
+  font-size: 12px;
+  letter-spacing: 1px;
+  height: 35px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  font-weight: normal;
+  position: relative;
+  line-height: 18px;
+  white-space: normal;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.container .row .feature .row .col-8 h5:hover {
+  cursor: pointer;
+}
+
+.container .row .feature .row .col-8 p {
+  color: #ffc301;
+  font-size: 13px;
+}
+
+.container .row .feature .row:hover {
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/*# sourceMappingURL=Features-Sales.css.map */

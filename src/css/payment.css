@@ -1,0 +1,45 @@
+section.project-tab div.container-fluid .tab-content .tab-pane form.form .form-group input {
+  font-size: 15px;
+  letter-spacing: 1px;
+  padding: 20px 13px;
+  outline: none;
+  -webkit-box-shadow: 0px 0px 3px 0px transparent;
+          box-shadow: 0px 0px 3px 0px transparent;
+}
+
+section.project-tab div.container-fluid .tab-content .tab-pane form.form .form-group input:active, section.project-tab div.container-fluid .tab-content .tab-pane form.form .form-group input:focus {
+  border: 1px solid #FFC301;
+}
+
+section.project-tab div.container-fluid .tab-content .tab-pane form.form .form-group .input-group-append {
+  outline: none;
+  border: none;
+  -webkit-box-shadow: 0px 0px 3px 0px transparent;
+          box-shadow: 0px 0px 3px 0px transparent;
+}
+
+section.project-tab div.container-fluid .tab-content button.btn {
+  padding: 12px 25px;
+  letter-spacing: 1px;
+  background: #FFC301;
+  font-size: 16px;
+  color: #fff;
+  border: none;
+  outline: none;
+  border: 1px solid transparent;
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
+}
+
+section.project-tab div.container-fluid .tab-content button.btn:hover {
+  background: #FFC301;
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
+}
+
+section.project-tab div.container-fluid .tab-content button.btn:focus {
+  outline: 0;
+  border: none;
+  border: 1px solid #FFC301;
+}
+/*# sourceMappingURL=payment.css.map */

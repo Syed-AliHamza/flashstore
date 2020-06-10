@@ -1,0 +1,65 @@
+.wishlist table {
+  scroll-behavior: auto;
+  width: 100%;
+  overflow-x: auto;
+}
+
+.wishlist table thead tr th {
+  background: none;
+  font-size: 16px;
+  color: #878787;
+  font-size: 13px;
+  padding: 12px 0;
+  letter-spacing: 1px;
+  font-weight: 400;
+}
+
+.wishlist table tbody tr td {
+  border: none;
+  font-size: 14px;
+  color: #212121;
+  cursor: pointer;
+}
+
+.wishlist table tbody tr td a img {
+  width: 60px;
+  height: 40px;
+  margin: 0;
+}
+
+.wishlist table tbody tr td p {
+  width: 92px;
+}
+
+.wishlist table tbody tr td p i {
+  cursor: pointer;
+  padding: 5px;
+  border: 1px solid black;
+  background-color: white;
+}
+
+.wishlist table tbody tr td p i:hover {
+  background-color: #f2f2f2;
+}
+
+.wishlist table tbody tr td p span {
+  padding: 10px;
+}
+
+.wishlist table tbody tr td img {
+  cursor: pointer;
+}
+
+.wishlist table tr.products td {
+  height: 60px;
+}
+
+.wishlist table tr.products td .btn {
+  background-color: #ffc301;
+}
+
+.wishlist table tr.products td .btn:hover {
+  background-color: black;
+  color: white;
+}
+/*# sourceMappingURL=WhisList.css.map */

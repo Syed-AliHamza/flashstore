@@ -117,7 +117,7 @@ export default class CheckOut extends Component {
                       <th className="lg px-2" scope="col">
                         Price
                       </th>
-                      <th className="lg px-2" scope="col">
+                      <th className="lg px-2 text-center" scope="col">
                         Quantity
                       </th>
                       <th className="lg px-2 text-center" scope="col">
@@ -147,16 +147,22 @@ export default class CheckOut extends Component {
                             </td>
                             <td className="px-2 py-3 text-left">{v.name}</td>
                             <td className="px-2 py-3">Rs {v.price}</td>
-                            <td className="px-0 py-3">
-                              <span className="" onClick={this.decrementCount}>
+                            <td className="px-0 py-3 text-center">
+                              {/* <span className="" onClick={this.decrementCount}>
                                 <i className="fa fa-minus"></i>
-                              </span>
-                              <span className="p-1 px-lg-3">
-                                {this.state.count}
-                              </span>
-                              <span className="" onClick={this.incrementCount}>
+                              </span> */}
+                              {/* <span className="p-1 px-lg-3"> */}
+                                {/* <input
+                                  type="text"
+                                  name="number"
+                                  className=" w-100"
+                                /> */}
+                                <input className="qty" type="text" min="1" placeholder="0" style={{width:"35px"}}/>
+                                {/* {this.state.count} */}
+                              {/* </span> */}
+                              {/* <span className="" onClick={this.incrementCount}>
                                 <i className="fa fa-plus"></i>
-                              </span>
+                              </span> */}
                             </td>
                             <td className="px-2 py-3 text-center">
                               Rs. {v.total_price}/-
@@ -176,10 +182,35 @@ export default class CheckOut extends Component {
                     })}
                   </tbody>
                 </table>
-                <div className="row py-3 m-auto d-flex justify-content-center">
-                  <Link to="/" className="btn rounded-0">
-                    Continue Shipping
-                  </Link>
+                <div className="row m-auto d-flex flex-column align-items-end">
+                  <div className="totals px-0 col col-md-4 col-lg-4">
+                    <div className="totals-item d-flex justify-content-between align-items-start w-100">
+                      <label className="text-muted">Subtotal</label>
+                      <div className="totals-value" id="cart-subtotal">
+                        3000/-
+                      </div>
+                    </div>
+                    <div className="totals-item d-flex justify-content-between align-items-start w-100">
+                      <label className="text-muted">Shipping</label>
+                      <div className="totals-value" id="cart-shipping">
+                        100/-
+                      </div>
+                    </div>
+                    <div className="totals-item d-flex justify-content-between align-items-start w-100 font-weight-bold">
+                      <label className="text-muted">Grand Total</label>
+                      <div className="totals-value" id="cart-total">
+                        3,100/-
+                      </div>
+                    </div>
+                    <div className="row py-3 m-auto d-flex justify-content-between">
+                      <Link to="/" className="btn mb-2 rounded-0">
+                        Continue Shipping
+                      </Link>
+                      <Link to="/checkout" className="btn mb-2 rounded-0">
+                        Checkout
+                      </Link>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
