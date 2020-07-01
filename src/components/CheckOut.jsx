@@ -11,27 +11,27 @@ export default class CheckOut extends Component {
       {
         img: "images/b3.jpg",
         name: "Samsung Galaxy J7 Prime (Gold, 16 GB) (3 GB RAM)",
-        price: "259",
-        total_price: "3000",
+        price: "300",
+        total_price: 0,
       },
-      {
-        img: "images/a4.jpg",
-        name: "Cordless Trimmer",
-        price: "259",
-        total_price: "3000",
-      },
-      {
-        img: "images/a3.jpg",
-        name: "Nikon Camera",
-        price: "259",
-        total_price: "3000",
-      },
-      {
-        img: "images/b2.jpg",
-        name: "Headphone",
-        price: "259",
-        total_price: "3000",
-      },
+      // {
+      //   img: "images/a4.jpg",
+      //   name: "Cordless Trimmer",
+      //   price: "259",
+      //   total_price: "3000",
+      // },
+      // {
+      //   img: "images/a3.jpg",
+      //   name: "Nikon Camera",
+      //   price: "259",
+      //   total_price: "3000",
+      // },
+      // {
+      //   img: "images/b2.jpg",
+      //   name: "Headphone",
+      //   price: "259",
+      //   total_price: "3000",
+      // },
     ],
     form: [
       {
@@ -75,6 +75,14 @@ export default class CheckOut extends Component {
     this.setState({
       count: this.state.count - 1,
     });
+  };
+  sumQty = () => {
+    var myQty = document.getElementsByClassName("qty").value;
+    this.setState({
+      myQty: this.state.data.total_price,
+    });
+    // myQty = this.state.data.total_price;
+    console.log("value", myQty);
   };
   render() {
     return (
@@ -123,7 +131,7 @@ export default class CheckOut extends Component {
                       <th className="lg px-2 text-center" scope="col">
                         Cart Total
                       </th>
-                      <th className="lg px-2" scope="col">
+                      <th className="lg px-2 text-center" scope="col">
                         Delete
                       </th>
                     </tr>
@@ -148,21 +156,14 @@ export default class CheckOut extends Component {
                             <td className="px-2 py-3 text-left">{v.name}</td>
                             <td className="px-2 py-3">Rs {v.price}</td>
                             <td className="px-0 py-3 text-center">
-                              {/* <span className="" onClick={this.decrementCount}>
-                                <i className="fa fa-minus"></i>
-                              </span> */}
-                              {/* <span className="p-1 px-lg-3"> */}
-                                {/* <input
-                                  type="text"
-                                  name="number"
-                                  className=" w-100"
-                                /> */}
-                                <input className="qty" type="text" min="1" placeholder="0" style={{width:"35px"}}/>
-                                {/* {this.state.count} */}
-                              {/* </span> */}
-                              {/* <span className="" onClick={this.incrementCount}>
-                                <i className="fa fa-plus"></i>
-                              </span> */}
+                              <input
+                                className="qty"
+                                type="text"
+                                min="1"
+                                placeholder="0"
+                                style={{ width: "35px" }}
+                                onFocus={this.sumQty}
+                              />
                             </td>
                             <td className="px-2 py-3 text-center">
                               Rs. {v.total_price}/-

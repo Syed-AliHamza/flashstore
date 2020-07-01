@@ -6,7 +6,7 @@ import PostReview from "./PostReview";
 class postdetails extends Component {
   state = { postdetails: [], count: 0 };
   componentDidMount() {
-    Axios.get("/postdata").then((resp) => {
+    Axios.get("http://localhost:2000/postdata").then((resp) => {
       let filter = resp.data.filter((d) => d._id == this.props.match.params.id);
       this.setState({
         postdetails: filter,
@@ -28,6 +28,36 @@ class postdetails extends Component {
     let res = this.state.postdetails.map((res, i) => {
       return (
         <React.Fragment key={i}>
+          <div className="row">
+            <div className="col-md-5">
+              <img
+                style={{ width: "100%" }}
+                className="maginify"
+                src={res.image}
+                alt=""
+              />
+            </div>
+            <div className="col-md-7">
+              <p>{res.Title}</p>
+              <h1>{res.Heading}</h1>
+              <hr /> <br />
+              <span>
+                <i className="fa fa-heart"></i> Wishlist{" "}
+              </span>
+              <span>
+                <i className="fa fa-refresh"></i> Compare
+              </span>
+              <div className="list">
+                <ul className="list-unstyled">
+                  <li>
+                    Products
+                    <p>{res.Desc}</p>
+                  </li>
+                </ul>
+              </div>
+              <h1 style={{ fontSize: "35px" }}>{res.price}</h1>
+            </div>
+          </div>
           <div className="row py-5">
             <div className="col-md-6 pb-3">
               <div className="preview">
@@ -120,7 +150,6 @@ class postdetails extends Component {
         </React.Fragment>
       );
     });
-    console.log("data", res);
     return (
       <React.Fragment>
         <div className="page-head_agile_info_w3l"></div>
@@ -139,8 +168,7 @@ class postdetails extends Component {
         </div>
         <div className="container-fluid py-5 postdetails">
           {res}
-
-          {/* <div className="row py-5">
+          <div className="row py-5">
             <div className="col-md-6 pb-3">
               <div className="preview">
                 <div className="preview-pic tab-content">
@@ -231,7 +259,7 @@ class postdetails extends Component {
                 </div>
               </div>
             </div>
-          </div> */}
+          </div>
           <div className="Tabs py-0">
             <div className="container-fluid">
               <div className="row">
@@ -304,7 +332,7 @@ class postdetails extends Component {
                         </div>
                         <div className="col-6 d-none d-sm-block m-0 p-0">
                           <img
-                            src="/images/b4.jpg"
+                            src="/images/Appale-earpod.jpg"
                             className="w-100"
                             alt=""
                             srcset=""

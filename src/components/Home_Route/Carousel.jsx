@@ -19,9 +19,9 @@ export default class Carousel extends Component {
             <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
           </ol> */}
           <div className="carousel-inner">
-            {/* <div className="sidebar container-fluid m-auto d-none d-sm-block">
+            <div className="sidebar container-fluid m-auto d-none d-sm-block">
               <div className="row p-0 w-100 m-0">
-                <ul className="col-5 col-md-4 col-lg-3 col-xl-2 p-0 py-3 m-0 bg-white w-100 h-100">
+                <ul className="col-5 col-md-4 col-lg-3 col-xl-3 p-0 py-3 m-0 bg-white w-100 h-100">
                   <li className="dropdown-item p-0 dropdown dropright">
                     <Link
                       to="/"
@@ -29,7 +29,7 @@ export default class Carousel extends Component {
                       id="navbardrop"
                       data-toggle="dropdown"
                     >
-                      All in one
+                      Mobile Accessories
                       <i className="fa fa-chevron-right icon-right"></i>
                     </Link>
                     <div className="dropdown-menu dropdown-menu border-0 rounded-0 p-0">
@@ -39,7 +39,7 @@ export default class Carousel extends Component {
                             to="/"
                             className="px-3 d-flex justify-content-between align-items-center"
                           >
-                            Top 100 Offers
+                            Chargers
                           </Link>
                         </li>
                         <li className="dropdown-item p-0">
@@ -47,7 +47,7 @@ export default class Carousel extends Component {
                             to="/"
                             className="px-3 d-flex justify-content-between align-items-center"
                           >
-                            New Arrivals
+                            Cables
                           </Link>
                         </li>
                         <li className="dropdown-item p-0">
@@ -55,7 +55,7 @@ export default class Carousel extends Component {
                             to="/"
                             className="px-3 d-flex justify-content-between align-items-center"
                           >
-                            TV & Audio
+                            Protectors & Cases
                           </Link>
                         </li>
                         <li className="dropdown-item p-0">
@@ -63,7 +63,7 @@ export default class Carousel extends Component {
                             to="/"
                             className="px-3 d-flex justify-content-between align-items-center"
                           >
-                            Top 100 Offers
+                            Handfree
                           </Link>
                         </li>
                         <li className="dropdown-item p-0">
@@ -71,39 +71,7 @@ export default class Carousel extends Component {
                             to="/"
                             className="px-3 d-flex justify-content-between align-items-center"
                           >
-                            New Arrivals
-                          </Link>
-                        </li>
-                        <li className="dropdown-item p-0">
-                          <Link
-                            to="/"
-                            className="px-3 d-flex justify-content-between align-items-center"
-                          >
-                            TV & Audio
-                          </Link>
-                        </li>
-                        <li className="dropdown-item p-0">
-                          <Link
-                            to="/"
-                            className="px-3 d-flex justify-content-between align-items-center"
-                          >
-                            Top 100 Offers
-                          </Link>
-                        </li>
-                        <li className="dropdown-item p-0">
-                          <Link
-                            to="/"
-                            className="px-3 d-flex justify-content-between align-items-center"
-                          >
-                            New Arrivals
-                          </Link>
-                        </li>
-                        <li className="dropdown-item p-0">
-                          <Link
-                            to="/"
-                            className="px-3 d-flex justify-content-between align-items-center"
-                          >
-                            TV & Audio
+                            EarPods
                           </Link>
                         </li>
                       </ul>
@@ -126,7 +94,7 @@ export default class Carousel extends Component {
                             to="/"
                             className="px-3 d-flex justify-content-between align-items-center"
                           >
-                            Top 100 Offers
+                            PubG Triggers
                           </Link>
                         </li>
                         <li className="dropdown-item p-0">
@@ -134,7 +102,7 @@ export default class Carousel extends Component {
                             to="/"
                             className="px-3 d-flex justify-content-between align-items-center"
                           >
-                            New Arrivals
+                            Tripods
                           </Link>
                         </li>
                         <li className="dropdown-item p-0">
@@ -142,7 +110,7 @@ export default class Carousel extends Component {
                             to="/"
                             className="px-3 d-flex justify-content-between align-items-center"
                           >
-                            TV & Audio
+                            TikTok Ring Light
                           </Link>
                         </li>
                         <li className="dropdown-item p-0">
@@ -150,47 +118,7 @@ export default class Carousel extends Component {
                             to="/"
                             className="px-3 d-flex justify-content-between align-items-center"
                           >
-                            Top 100 Offers
-                          </Link>
-                        </li>
-                        <li className="dropdown-item p-0">
-                          <Link
-                            to="/"
-                            className="px-3 d-flex justify-content-between align-items-center"
-                          >
-                            New Arrivals
-                          </Link>
-                        </li>
-                        <li className="dropdown-item p-0">
-                          <Link
-                            to="/"
-                            className="px-3 d-flex justify-content-between align-items-center"
-                          >
-                            TV & Audio
-                          </Link>
-                        </li>
-                        <li className="dropdown-item p-0">
-                          <Link
-                            to="/"
-                            className="px-3 d-flex justify-content-between align-items-center"
-                          >
-                            Top 100 Offers
-                          </Link>
-                        </li>
-                        <li className="dropdown-item p-0">
-                          <Link
-                            to="/"
-                            className="px-3 d-flex justify-content-between align-items-center"
-                          >
-                            New Arrivals
-                          </Link>
-                        </li>
-                        <li className="dropdown-item p-0">
-                          <Link
-                            to="/"
-                            className="px-3 d-flex justify-content-between align-items-center"
-                          >
-                            TV & Audio
+                            Selfie Stick
                           </Link>
                         </li>
                       </ul>
@@ -203,103 +131,32 @@ export default class Carousel extends Component {
                       id="navbardrop"
                       data-toggle="dropdown"
                     >
-                      Accessories
+                      Gaming Controllers
                       <i className="fa fa-chevron-right icon-right"></i>
                     </Link>
-                    <div className="dropdown-menu dropdown-menu2 border-0 rounded-0 p-0">
-                      <ul className="p-0 py-3 m-0 border-0 bg-white h-100">
-                        <li className="dropdown-item p-0">
-                          <Link
-                            to="/"
-                            className="px-3 d-flex justify-content-between align-items-center"
-                          >
-                            Top 100 Offers
-                          </Link>
-                        </li>
-                        <li className="dropdown-item p-0">
-                          <Link
-                            to="/"
-                            className="px-3 d-flex justify-content-between align-items-center"
-                          >
-                            New Arrivals
-                          </Link>
-                        </li>
-                        <li className="dropdown-item p-0">
-                          <Link
-                            to="/"
-                            className="px-3 d-flex justify-content-between align-items-center"
-                          >
-                            TV & Audio
-                          </Link>
-                        </li>
-                        <li className="dropdown-item p-0">
-                          <Link
-                            to="/"
-                            className="px-3 d-flex justify-content-between align-items-center"
-                          >
-                            Top 100 Offers
-                          </Link>
-                        </li>
-                        <li className="dropdown-item p-0">
-                          <Link
-                            to="/"
-                            className="px-3 d-flex justify-content-between align-items-center"
-                          >
-                            New Arrivals
-                          </Link>
-                        </li>
-                        <li className="dropdown-item p-0">
-                          <Link
-                            to="/"
-                            className="px-3 d-flex justify-content-between align-items-center"
-                          >
-                            TV & Audio
-                          </Link>
-                        </li>
-                        <li className="dropdown-item p-0">
-                          <Link
-                            to="/"
-                            className="px-3 d-flex justify-content-between align-items-center"
-                          >
-                            Top 100 Offers
-                          </Link>
-                        </li>
-                        <li className="dropdown-item p-0">
-                          <Link
-                            to="/"
-                            className="px-3 d-flex justify-content-between align-items-center"
-                          >
-                            New Arrivals
-                          </Link>
-                        </li>
-                        <li className="dropdown-item p-0">
-                          <Link
-                            to="/"
-                            className="px-3 d-flex justify-content-between align-items-center"
-                          >
-                            TV & Audio
-                          </Link>
-                        </li>
-                      </ul>
-                    </div>
-                  </li>
-                  <li className="dropdown-item p-0 dropdown dropright">
-                    <Link
-                      to="/"
-                      className="px-3 d-flex justify-content-between align-items-center"
-                      id="navbardrop"
-                      data-toggle="dropdown"
-                    >
-                      Gaming
-                      <i className="fa fa-chevron-right icon-right"></i>
-                    </Link>
-                    <div className="dropdown-menu dropdown-menu3 rounded-0 p-0 py-3">
+                    <div className="dropdown-menu dropdown-menu2 rounded-0 p-0 py-3">
                       <li className="dropdown-item p-0">
                         <Link
                           to="/"
                           className="px-3 d-flex justify-content-between align-items-center"
                         >
-                          PlayStation Controllers
+                          PS2 Controllers
+                        </Link>
+                      </li>
+                      <li className="dropdown-item p-0">
+                        <Link
+                          to="/"
+                          className="px-3 d-flex justify-content-between align-items-center"
+                        >
+                          PS3 Controllers
+                        </Link>
+                      </li>
+                      <li className="dropdown-item p-0">
+                        <Link
+                          to="/"
+                          className="px-3 d-flex justify-content-between align-items-center"
+                        >
+                          PS4 Controllers
                         </Link>
                       </li>
                       <li className="dropdown-item p-0">
@@ -310,6 +167,14 @@ export default class Carousel extends Component {
                           XBOX Controllers
                         </Link>
                       </li>
+                      <li className="dropdown-item p-0">
+                        <Link
+                          to="/"
+                          className="px-3 d-flex justify-content-between align-items-center"
+                        >
+                          JoyStick
+                        </Link>
+                      </li>
                     </div>
                   </li>
                   <li className="dropdown-item p-0 dropdown dropright">
@@ -319,16 +184,16 @@ export default class Carousel extends Component {
                       id="navbardrop"
                       data-toggle="dropdown"
                     >
-                      Laptop and Computers
+                      Laptop & Computers Accessories
                       <i className="fa fa-chevron-right icon-right"></i>
                     </Link>
-                    <div className="dropdown-menu dropdown-menu4 rounded-0 p-0 py-3">
+                    <div className="dropdown-menu dropdown-menu3 rounded-0 p-0 py-3">
                       <li className="dropdown-item p-0">
                         <Link
                           to="/"
                           className="px-3 d-flex justify-content-between align-items-center"
                         >
-                          Laptops
+                          Laptops Chargers
                         </Link>
                       </li>
                       <li className="dropdown-item p-0">
@@ -336,7 +201,63 @@ export default class Carousel extends Component {
                           to="/"
                           className="px-3 d-flex justify-content-between align-items-center"
                         >
-                          Computer
+                          RAM
+                        </Link>
+                      </li>
+                      <li className="dropdown-item p-0">
+                        <Link
+                          to="/"
+                          className="px-3 d-flex justify-content-between align-items-center"
+                        >
+                          Hard Disk
+                        </Link>
+                      </li>
+                      <li className="dropdown-item p-0">
+                        <Link
+                          to="/"
+                          className="px-3 d-flex justify-content-between align-items-center"
+                        >
+                          Keyboard
+                        </Link>
+                      </li>
+                      <li className="dropdown-item p-0">
+                        <Link
+                          to="/"
+                          className="px-3 d-flex justify-content-between align-items-center"
+                        >
+                          Mouse
+                        </Link>
+                      </li>
+                      <li className="dropdown-item p-0">
+                        <Link
+                          to="/"
+                          className="px-3 d-flex justify-content-between align-items-center"
+                        >
+                          Wireless Keyboard
+                        </Link>
+                      </li>
+                      <li className="dropdown-item p-0">
+                        <Link
+                          to="/"
+                          className="px-3 d-flex justify-content-between align-items-center"
+                        >
+                          Wireless Mouse
+                        </Link>
+                      </li>
+                      <li className="dropdown-item p-0">
+                        <Link
+                          to="/"
+                          className="px-3 d-flex justify-content-between align-items-center"
+                        >
+                          Power Cables
+                        </Link>
+                      </li>
+                      <li className="dropdown-item p-0">
+                        <Link
+                          to="/"
+                          className="px-3 d-flex justify-content-between align-items-center"
+                        >
+                          VGA Cables
                         </Link>
                       </li>
                     </div>
@@ -348,7 +269,54 @@ export default class Carousel extends Component {
                       id="navbardrop"
                       data-toggle="dropdown"
                     >
-                      Value of the Day
+                      Memory Storage
+                      <i className="fa fa-chevron-right icon-right"></i>
+                    </Link>
+                    <div className="dropdown-menu dropdown-menu4 border-0 rounded-0 p-0">
+                      <ul className="p-0 py-3 m-0 border-0 bg-white h-100">
+                        <li className="dropdown-item p-0">
+                          <Link
+                            to="/"
+                            className="px-3 d-flex justify-content-between align-items-center"
+                          >
+                            USB
+                          </Link>
+                        </li>
+                        <li className="dropdown-item p-0">
+                          <Link
+                            to="/"
+                            className="px-3 d-flex justify-content-between align-items-center"
+                          >
+                            Memory Cards
+                          </Link>
+                        </li>
+                        <li className="dropdown-item p-0">
+                          <Link
+                            to="/"
+                            className="px-3 d-flex justify-content-between align-items-center"
+                          >
+                            OTG
+                          </Link>
+                        </li>
+                        <li className="dropdown-item p-0">
+                          <Link
+                            to="/"
+                            className="px-3 d-flex justify-content-between align-items-center"
+                          >
+                            Card Reader
+                          </Link>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li className="dropdown-item p-0 dropdown dropright">
+                    <Link
+                      to="/"
+                      className="px-3 d-flex justify-content-between align-items-center"
+                      id="navbardrop"
+                      data-toggle="dropdown"
+                    >
+                      Batteries & PowerBanks
                       <i className="fa fa-chevron-right icon-right"></i>
                     </Link>
                     <div className="dropdown-menu dropdown-menu5 border-0 rounded-0 p-0">
@@ -358,7 +326,7 @@ export default class Carousel extends Component {
                             to="/"
                             className="px-3 d-flex justify-content-between align-items-center"
                           >
-                            Top 100 Offers
+                            Mobiles Batteries
                           </Link>
                         </li>
                         <li className="dropdown-item p-0">
@@ -366,7 +334,7 @@ export default class Carousel extends Component {
                             to="/"
                             className="px-3 d-flex justify-content-between align-items-center"
                           >
-                            New Arrivals
+                            Laptop Batteries
                           </Link>
                         </li>
                         <li className="dropdown-item p-0">
@@ -374,55 +342,7 @@ export default class Carousel extends Component {
                             to="/"
                             className="px-3 d-flex justify-content-between align-items-center"
                           >
-                            TV & Audio
-                          </Link>
-                        </li>
-                        <li className="dropdown-item p-0">
-                          <Link
-                            to="/"
-                            className="px-3 d-flex justify-content-between align-items-center"
-                          >
-                            Top 100 Offers
-                          </Link>
-                        </li>
-                        <li className="dropdown-item p-0">
-                          <Link
-                            to="/"
-                            className="px-3 d-flex justify-content-between align-items-center"
-                          >
-                            New Arrivals
-                          </Link>
-                        </li>
-                        <li className="dropdown-item p-0">
-                          <Link
-                            to="/"
-                            className="px-3 d-flex justify-content-between align-items-center"
-                          >
-                            TV & Audio
-                          </Link>
-                        </li>
-                        <li className="dropdown-item p-0">
-                          <Link
-                            to="/"
-                            className="px-3 d-flex justify-content-between align-items-center"
-                          >
-                            Top 100 Offers
-                          </Link>
-                        </li>
-                        <li className="dropdown-item p-0">
-                          <Link
-                            to="/"
-                            className="px-3 d-flex justify-content-between align-items-center"
-                          >
-                            New Arrivals
-                          </Link>
-                        </li>
-                        <li className="dropdown-item p-0">
-                          <Link
-                            to="/"
-                            className="px-3 d-flex justify-content-between align-items-center"
-                          >
-                            TV & Audio
+                            PowerBanks
                           </Link>
                         </li>
                       </ul>
@@ -435,7 +355,7 @@ export default class Carousel extends Component {
                       id="navbardrop"
                       data-toggle="dropdown"
                     >
-                      Top 100 Offers
+                      Audios & Video
                       <i className="fa fa-chevron-right icon-right"></i>
                     </Link>
                     <div className="dropdown-menu dropdown-menu6 border-0 rounded-0 p-0">
@@ -445,7 +365,7 @@ export default class Carousel extends Component {
                             to="/"
                             className="px-3 d-flex justify-content-between align-items-center"
                           >
-                            Top 100 Offers
+                            HeadPhones
                           </Link>
                         </li>
                         <li className="dropdown-item p-0">
@@ -453,7 +373,7 @@ export default class Carousel extends Component {
                             to="/"
                             className="px-3 d-flex justify-content-between align-items-center"
                           >
-                            New Arrivals
+                            Wireless HeadPhones
                           </Link>
                         </li>
                         <li className="dropdown-item p-0">
@@ -461,7 +381,7 @@ export default class Carousel extends Component {
                             to="/"
                             className="px-3 d-flex justify-content-between align-items-center"
                           >
-                            TV & Audio
+                            MicroPhones
                           </Link>
                         </li>
                         <li className="dropdown-item p-0">
@@ -469,7 +389,7 @@ export default class Carousel extends Component {
                             to="/"
                             className="px-3 d-flex justify-content-between align-items-center"
                           >
-                            Top 100 Offers
+                            Handfree
                           </Link>
                         </li>
                         <li className="dropdown-item p-0">
@@ -477,7 +397,7 @@ export default class Carousel extends Component {
                             to="/"
                             className="px-3 d-flex justify-content-between align-items-center"
                           >
-                            New Arrivals
+                            Wireless Handfree
                           </Link>
                         </li>
                         <li className="dropdown-item p-0">
@@ -485,7 +405,7 @@ export default class Carousel extends Component {
                             to="/"
                             className="px-3 d-flex justify-content-between align-items-center"
                           >
-                            TV & Audio
+                            AUX Cables
                           </Link>
                         </li>
                         <li className="dropdown-item p-0">
@@ -493,7 +413,7 @@ export default class Carousel extends Component {
                             to="/"
                             className="px-3 d-flex justify-content-between align-items-center"
                           >
-                            Top 100 Offers
+                            Speakers
                           </Link>
                         </li>
                         <li className="dropdown-item p-0">
@@ -501,15 +421,7 @@ export default class Carousel extends Component {
                             to="/"
                             className="px-3 d-flex justify-content-between align-items-center"
                           >
-                            New Arrivals
-                          </Link>
-                        </li>
-                        <li className="dropdown-item p-0">
-                          <Link
-                            to="/"
-                            className="px-3 d-flex justify-content-between align-items-center"
-                          >
-                            TV & Audio
+                            Wireless Speakers
                           </Link>
                         </li>
                       </ul>
@@ -522,7 +434,7 @@ export default class Carousel extends Component {
                       id="navbardrop"
                       data-toggle="dropdown"
                     >
-                      New Arrivals
+                      Car Accessories
                       <i className="fa fa-chevron-right icon-right"></i>
                     </Link>
                     <div className="dropdown-menu dropdown-menu7 border-0 rounded-0 p-0">
@@ -532,7 +444,7 @@ export default class Carousel extends Component {
                             to="/"
                             className="px-3 d-flex justify-content-between align-items-center"
                           >
-                            Top 100 Offers
+                            Mobile Holder
                           </Link>
                         </li>
                         <li className="dropdown-item p-0">
@@ -540,63 +452,7 @@ export default class Carousel extends Component {
                             to="/"
                             className="px-3 d-flex justify-content-between align-items-center"
                           >
-                            New Arrivals
-                          </Link>
-                        </li>
-                        <li className="dropdown-item p-0">
-                          <Link
-                            to="/"
-                            className="px-3 d-flex justify-content-between align-items-center"
-                          >
-                            TV & Audio
-                          </Link>
-                        </li>
-                        <li className="dropdown-item p-0">
-                          <Link
-                            to="/"
-                            className="px-3 d-flex justify-content-between align-items-center"
-                          >
-                            Top 100 Offers
-                          </Link>
-                        </li>
-                        <li className="dropdown-item p-0">
-                          <Link
-                            to="/"
-                            className="px-3 d-flex justify-content-between align-items-center"
-                          >
-                            New Arrivals
-                          </Link>
-                        </li>
-                        <li className="dropdown-item p-0">
-                          <Link
-                            to="/"
-                            className="px-3 d-flex justify-content-between align-items-center"
-                          >
-                            TV & Audio
-                          </Link>
-                        </li>
-                        <li className="dropdown-item p-0">
-                          <Link
-                            to="/"
-                            className="px-3 d-flex justify-content-between align-items-center"
-                          >
-                            Top 100 Offers
-                          </Link>
-                        </li>
-                        <li className="dropdown-item p-0">
-                          <Link
-                            to="/"
-                            className="px-3 d-flex justify-content-between align-items-center"
-                          >
-                            New Arrivals
-                          </Link>
-                        </li>
-                        <li className="dropdown-item p-0">
-                          <Link
-                            to="/"
-                            className="px-3 d-flex justify-content-between align-items-center"
-                          >
-                            TV & Audio
+                            Car Chargers
                           </Link>
                         </li>
                       </ul>
@@ -609,7 +465,7 @@ export default class Carousel extends Component {
                       id="navbardrop"
                       data-toggle="dropdown"
                     >
-                      TV & Audio
+                      Mobiles Attachments
                       <i className="fa fa-chevron-right icon-right"></i>
                     </Link>
                     <div className="dropdown-menu dropdown-menu8 border-0 rounded-0 p-0">
@@ -619,7 +475,7 @@ export default class Carousel extends Component {
                             to="/"
                             className="px-3 d-flex justify-content-between align-items-center"
                           >
-                            Top 100 Offers
+                            USB Portable Fan
                           </Link>
                         </li>
                         <li className="dropdown-item p-0">
@@ -627,7 +483,7 @@ export default class Carousel extends Component {
                             to="/"
                             className="px-3 d-flex justify-content-between align-items-center"
                           >
-                            New Arrivals
+                            USB Portable Light
                           </Link>
                         </li>
                         <li className="dropdown-item p-0">
@@ -635,7 +491,7 @@ export default class Carousel extends Component {
                             to="/"
                             className="px-3 d-flex justify-content-between align-items-center"
                           >
-                            TV & Audio
+                            Telescopic Lens
                           </Link>
                         </li>
                         <li className="dropdown-item p-0">
@@ -643,7 +499,7 @@ export default class Carousel extends Component {
                             to="/"
                             className="px-3 d-flex justify-content-between align-items-center"
                           >
-                            Top 100 Offers
+                            Fish Eye Lens
                           </Link>
                         </li>
                         <li className="dropdown-item p-0">
@@ -651,39 +507,7 @@ export default class Carousel extends Component {
                             to="/"
                             className="px-3 d-flex justify-content-between align-items-center"
                           >
-                            New Arrivals
-                          </Link>
-                        </li>
-                        <li className="dropdown-item p-0">
-                          <Link
-                            to="/"
-                            className="px-3 d-flex justify-content-between align-items-center"
-                          >
-                            TV & Audio
-                          </Link>
-                        </li>
-                        <li className="dropdown-item p-0">
-                          <Link
-                            to="/"
-                            className="px-3 d-flex justify-content-between align-items-center"
-                          >
-                            Top 100 Offers
-                          </Link>
-                        </li>
-                        <li className="dropdown-item p-0">
-                          <Link
-                            to="/"
-                            className="px-3 d-flex justify-content-between align-items-center"
-                          >
-                            New Arrivals
-                          </Link>
-                        </li>
-                        <li className="dropdown-item p-0">
-                          <Link
-                            to="/"
-                            className="px-3 d-flex justify-content-between align-items-center"
-                          >
-                            TV & Audio
+                            LED Flash Light
                           </Link>
                         </li>
                       </ul>
@@ -691,9 +515,9 @@ export default class Carousel extends Component {
                   </li>
                 </ul>
               </div>
-            </div> */}
+            </div>
             <div className="carousel-item item1 active">
-              <img src="/images/slider1.jpg" alt="" srcset="" />
+              <img src="/images/slider1.jpg" alt="" />
             </div>
             {/* <div className="carousel-item item2"></div> */}
             {/* <div className="carousel-item item3"></div> */}

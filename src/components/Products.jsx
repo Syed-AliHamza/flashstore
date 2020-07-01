@@ -527,65 +527,63 @@ export default class Musicandheadphones extends Component {
     });
   }
   componentDidMount() {
-    Axios.get("/postdata").then((resp) => {
-      let Headphone = resp.data.filter(
-        (cate) => cate.categeory == "Headphones"
-      );
+    Axios.get("http://localhost:2000/postdata").then((resp) => {
+      console.log("dsvewvjn",resp);
       this.setState({
-        Headphones: Headphone,
+        Headphones: resp.data,
       });
     });
   }
   render() {
-    // console.log("products", Headphones);
-    let resp = this.state.Headphones.slice(0, this.state.visible).map(
-      (res, i) => {
-        return (
-          <React.Fragment key={i}>
-            <div className="card col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2 p-0">
-              <div className="border bg-white cardss m-1 mb-2">
-                <Link to={`/postdetail/${res._id}`}>
-                  <img
-                    className="img-fluid img-responsive w-100"
-                    src={res.src}
-                    alt=""
-                  />
-                  <span className="p-2">{res.Title}</span>
-                  <h5 className="py-1 px-2 mb-2 m-0">{res.Heading}</h5>
-                </Link>
-                <p className="price m-0 d-flex justify-content-center align-items-center">
-                  RS.{res.price}
-                </p>
-                <div className="views p-2 d-flex justify-content-between">
-                  <span
-                    type="button"
-                    className="btn text-left p-0 text-uppercase rounded-0"
-                    data-toggle="modal"
-                    data-target="#myModal"
-                  >
-                    <i className="fa fa-eye pr-1"></i>
-                    Quik View
-                  </span>
-                  <Link to="/wishlist" className="p-0 text-uppercase rounded-0">
-                    <i className="flaticon-heart pr-1"></i>
-                    WishList
-                  </Link>
-                </div>
-                <div className="m-2">
-                  <Link
-                    to="/checkout"
-                    type="button"
-                    className="btn w-100 text-uppercase rounded-0"
-                  >
-                    Add to Cart
-                  </Link>
-                </div>
-              </div>
-            </div>
-          </React.Fragment>
-        );
-      }
-    );
+    // console.log("products", resp);
+    // let resp = this.state.Headphones.slice(0, this.state.visible).map(
+    //   (res, i) => {
+    //     return (
+    //       <React.Fragment key={i}>
+    //         <div className="card col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2 p-0">
+    //           <div className="border bg-white cardss m-1 mb-2">
+    //             <Link to={`/postdetail/${res._id}`}>
+    //               <img
+    //                 className="img-fluid img-responsive w-100"
+    //                 src={res.src}
+    //                 alt=""
+    //               />
+    //               <span className="p-2">{res.Title}</span>
+    //               <h5 className="py-1 px-2 mb-2 m-0">{res.Heading}</h5>
+    //             </Link>
+    //             <p className="price m-0 d-flex justify-content-center align-items-center">
+    //               RS.{res.price}
+    //             </p>
+    //             <div className="views p-2 d-flex justify-content-between">
+    //               <span
+    //                 type="button"
+    //                 className="btn text-left p-0 text-uppercase rounded-0"
+    //                 data-toggle="modal"
+    //                 data-target="#myModal"
+    //               >
+    //                 <i className="fa fa-eye pr-1"></i>
+    //                 Quik View
+    //               </span>
+    //               <Link to="/wishlist" className="p-0 text-uppercase rounded-0">
+    //                 <i className="flaticon-heart pr-1"></i>
+    //                 WishList
+    //               </Link>
+    //             </div>
+    //             <div className="m-2">
+    //               <Link
+    //                 to="/checkout"
+    //                 type="button"
+    //                 className="btn w-100 text-uppercase rounded-0"
+    //               >
+    //                 Add to Cart
+    //               </Link>
+    //             </div>
+    //           </div>
+    //         </div>
+    //       </React.Fragment>
+    //     );
+    //   }
+    // );
 
     return (
       <div id="products">
@@ -595,8 +593,8 @@ export default class Musicandheadphones extends Component {
           </h4>
           <div className="row product w-100 m-auto">
             <div className="row col-12 m-0 p-0 w-100">
-              {resp}
-              {/* {this.state.Headphones.slice(0, this.state.visible).map(
+              {/* {resp} */}
+              {this.state.products.slice(0, this.state.visible).map(
                 (v, k) => {
                   return (
                     <React.Fragment key={k}>
@@ -608,7 +606,7 @@ export default class Musicandheadphones extends Component {
                               src={v.src}
                               alt=""
                             />
-                            <span className="p-2">{v.Title}</span>
+                            <span className="p-2">{v.categeory}</span>
                             <h5 className="py-1 px-2 mb-2 m-0">{v.Heading}</h5>
                           </Link>
                           <p className="price m-0 d-flex justify-content-center align-items-center">
@@ -646,7 +644,7 @@ export default class Musicandheadphones extends Component {
                     </React.Fragment>
                   );
                 }
-              )} */}
+              )}
               <Product_Modal />
             </div>
           </div>

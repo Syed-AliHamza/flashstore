@@ -1,7 +1,7 @@
 .wishlist {
-  table {
+  table.table {
     scroll-behavior: auto;
-    width: 100%;
+    width: 100vh;
     overflow-x: auto;
     thead {
       tr {
@@ -59,7 +59,7 @@
     }
     tr.products {
       td {
-        height: 60px;
+        // height: 60px;
         .btn {
           background-color: #ffc301;
           &:hover {
@@ -71,3 +71,38 @@
     }
   }
 }
+// @media (max-width: "420px") {
+//   tr.head {
+//     th.name {
+//       // display: flex;
+//       // flex-wrap: nowrap;
+//       width: 150px !important;
+//       // text-overflow: ellipsis;
+//       // overflow: hidden;
+//       // // font-weight: normal;
+//       // position: relative;
+//       // white-space: normal;
+//       // display: -webkit-box;
+//       // -webkit-line-clamp: 2;
+//       // -webkit-box-orient: vertical;
+//     }
+//   }
+//   tr.products {
+//     td.name {
+//       // height: 48px;
+//       display: flex;
+//       flex-wrap: nowrap;
+//       width: 250px !important;
+//       letter-spacing: 1px;
+//       text-overflow: ellipsis;
+//       // overflow: hidden;
+//       // // font-weight: normal;
+//       position: relative;
+//       line-height: 20px;
+//       // white-space: normal;
+//       // display: -webkit-box;
+//       // -webkit-line-clamp: 2;
+//       // -webkit-box-orient: vertical;
+//     }
+//   }
+// }

@@ -9,7 +9,7 @@ export default class WishList extends Component {
     data: [
       {
         img: "images/b3.jpg",
-        name: "Samsung Galaxy J7 Prime (Gold, 16 GB) (3 GB RAM)",
+        name: "Samsung Galaxy J7 Prime",
         price: "259",
       },
       {
@@ -25,6 +25,15 @@ export default class WishList extends Component {
       {
         img: "images/b2.jpg",
         name: "Headphone",
+        price: "259",
+      },{
+        img: "images/b3.jpg",
+        name: "Samsung Galaxy J7 Prime",
+        price: "259",
+      },
+      {
+        img: "images/a4.jpg",
+        name: "Cordless Trimmer",
         price: "259",
       },
     ],
@@ -95,29 +104,33 @@ export default class WishList extends Component {
                 Your wishlist contains:
                 <span> 4</span> Products
               </h4>
-              <div className="table-responsive-lg w-100">
-                <table className="table table-hover table-responsive-sm">
+              <div className="table-responsive-md w-100">
+                <table className="table table-hover table-responsive-lg bg-light m-0">
                   <thead>
-                    <tr className="">
-                      <th className="lg" scope="col">
+                    <tr className="head">
+                      <th className="lg text-center" scope="col">
                         #
                       </th>
-                      <th className="lg" scope="col">
+                      <th className="lg text-center" scope="col">
                         Product Image
                       </th>
-                      <th className="lg" scope="col" colspan="2">
+                      <th
+                        className="lg text-left px-3 name"
+                        scope="col"
+                        colSpan="2"
+                      >
                         Product Name
                       </th>
-                      <th className="lg" scope="col">
+                      <th className="lg text-center" scope="col">
                         Price
                       </th>
-                      <th className="lg" scope="col">
+                      <th className="lg text-center" scope="col">
                         Available
                       </th>
-                      <th className="lg" scope="col">
+                      <th className="lg text-center" scope="col">
                         View
                       </th>
-                      <th className="lg" scope="col">
+                      <th className="lg text-center" scope="col">
                         Delete
                       </th>
                     </tr>
@@ -127,10 +140,10 @@ export default class WishList extends Component {
                       return (
                         <React.Fragment key={k}>
                           <tr className="products alert show fade border-bottom rounded-0">
-                            <td className="pl-0 py-3" scope="row">
+                            <td className="py-3 text-center" scope="row">
                               {k + 1}
                             </td>
-                            <td className="pl-0 py-2">
+                            <td className="py-2 text-center">
                               <Link to="/postdetail">
                                 <img
                                   src={v.img}
@@ -139,12 +152,12 @@ export default class WishList extends Component {
                                 />
                               </Link>
                             </td>
-                            <td className="pl-0 py-3 text-left" colspan="2">
+                            <td className="py-3 text-left name" colSpan="2">
                               {v.name}
                             </td>
-                            <td className="pl-0 py-3">Rs {v.price}</td>
-                            <td className="pl-0 py-3">In Stock</td>
-                            <td className="pl-0 py-2">
+                            <td className="py-3 text-center">Rs {v.price}</td>
+                            <td className="py-3 text-center text-success">In_Stock</td>
+                            <td className="py-2 text-center">
                               <Link
                                 to="/postdetail"
                                 type="button"
@@ -153,8 +166,9 @@ export default class WishList extends Component {
                                 View
                               </Link>
                             </td>
-                            <td className="pl-0 py-3 text-center">
+                            <td className="py-3 text-center text-danger font-weight-bold">
                               <span
+                              className="p-3"
                                 data-dismiss="alert"
                                 style={{ cursor: "pointer" }}
                               >
